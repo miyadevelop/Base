@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 标题栏 -->
+    <declare-styleable name="TitleBar">
+        <attr name="titleBarTitleText" format="reference|string" />
+        <attr name="titleBarTitleTextColor" format="color" />
+        <attr name="titleBarBtnLeft" format="reference|string" />
+        <attr name="titleBarBtnRight" format="reference|string" />
+        <attr name="titleBarBtnRightBackup" format="reference|string" />
+        <attr name="titleBarBg" format="reference|color" />
+        <attr name="titleButtonColor" format="color" />
+    </declare-styleable>
+
+    <!-- 标题栏 -->
+    <declare-styleable name="MyImageButton">
+        <attr name="my_color" format="color" />
+    </declare-styleable>
+
+    <!-- 圆角图片 -->
+    <declare-styleable name="RoundCornerImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+        <attr name="civ_conner_radius" format="dimension" />
+    </declare-styleable>
+
+
+    <!--流式布局，搜索热词-->
+    <attr name="horizontalSpacing" format="dimension" />
+    <attr name="verticalSpacing" format="dimension" />
+    <attr name="itemSize" format="dimension" />
+    <attr name="itemColor" format="color" />
+    <attr name="backgroundResource" format="reference" />
+    <attr name="textPaddingH" format="dimension" />
+    <attr name="textPaddingV" format="dimension" />
+
+    <declare-styleable name="FlowLayoutAttrs">
+        <attr name="horizontalSpacing" />
+        <attr name="verticalSpacing" />
+        <attr name="itemSize" />
+        <attr name="itemColor" />
+        <attr name="backgroundResource" />
+        <attr name="textPaddingH" />
+        <attr name="textPaddingV" />
+    </declare-styleable>
+
+
+</resources>

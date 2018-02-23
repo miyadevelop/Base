@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/module_1" >
+
+    <TextView
+        android:id="@+id/update_dialog_text_title"
+        style="@style/module_1_text_2_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/view_padding_4"
+        android:paddingTop="@dimen/view_padding_4" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/update_dialog_text_title"
+        android:background="@color/module_1_line" />
+
+    <TextView
+        android:id="@+id/update_dialog_text_message"
+        style="@style/module_1_text_3_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_dialog_text_title"
+        android:layout_margin="20dp" />
+
+    <Button
+        android:id="@+id/update_dialog_text_button"
+        style="@style/button_2_1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/update_dialog_text_message"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_below="@id/update_dialog_text_button" />
+
+</RelativeLayout>

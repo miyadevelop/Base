@@ -1,0 +1,94 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="AppTheme.Module.NoActionBar"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="AppTheme.WithActionBar" parent="AppTheme.Module">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+
+    <style name="AppTheme.Main" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/main</item><!--软件主色，标题栏的颜色-->
+        <item name="android:textColorPrimary">@color/main_text_1</item><!--标题栏的文字颜色、EditText文字颜色-->
+        <item name="colorPrimaryDark">@color/main
+        </item><!--更深一点的软件主色，如果v21不重写statusBarColor，这个就是状态栏颜色-->
+        <item name="colorAccent">@color/main_text_1</item><!--Checkbox等控件的颜色-->
+        <item name="colorButtonNormal">@color/main_text_1</item>
+        <!--<item name="android:textColor">@color/main_text_1</item>&lt;!&ndash; Snackbar文字颜色、大背景文字颜色&ndash;&gt;-->
+        <item name="android:windowBackground">@color/module_1_text_1</item><!--界面默认背景色-->
+        <item name="android:textColorSecondary">@color/main_text_2
+        </item><!--如果v21不重写colorControlNormal，这个就是返回按钮的颜色-->
+        <item name="android:textColorTertiary">@color/main_text_3</item>
+        <item name="android:textColorHint">@color/main_text_3</item><!--hint的颜色-->
+        <item name="android:textColorHighlight">@color/main_text_1</item><!--高亮文字颜色-->
+        <item name="android:textColorHighlightInverse">@color/main</item><!--高亮背景色上的文字颜色-->
+        <item name="colorControlNormal">@color/main_text_2</item>
+        <item name="colorControlHighlight">@color/main_text_1</item>
+        <item name="colorControlActivated">@color/main_text_1</item>
+    </style>
+
+    <style name="AppTheme.Main.NoActionBar" parent="AppTheme.Main">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="AppTheme.Module" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/module_1</item><!--软件主色，标题栏的颜色-->
+        <item name="android:textColorPrimary">@color/module_1_text_1
+        </item><!--标题栏的文字颜色、EditText文字颜色-->
+        <item name="colorPrimaryDark">@color/main
+        </item><!--更深一点的软件主色，如果v21不重写statusBarColor，这个就是状态栏颜色-->
+        <item name="colorAccent">@color/main</item><!--Checkbox等控件的颜色-->
+        <item name="colorButtonNormal">@color/main</item>
+        <!--<item name="android:textColor">@color/module_1_text_1</item>&lt;!&ndash; Snackbar文字颜色、大背景文字颜色&ndash;&gt;-->
+        <item name="android:windowBackground">@color/background</item><!--界面默认背景色-->
+        <item name="android:textColorSecondary">@color/module_1_text_3
+        </item><!--如果v21不重写colorControlNormal，这个就是返回按钮的颜色-->
+        <item name="android:textColorTertiary">@color/module_1_text_5</item>
+        <item name="android:textColorHint">@color/module_1_text_3</item><!--hint的颜色-->
+        <item name="android:textColorHighlight">@color/module_1_text_6</item><!--高亮文字颜色-->
+        <item name="android:textColorHighlightInverse">@color/main_text_1</item><!--高亮背景色上的文字颜色-->
+        <item name="colorControlNormal">@color/module_1_text_3</item>
+        <item name="colorControlHighlight">@color/main</item>
+        <item name="colorControlActivated">@color/main</item>
+    </style>
+
+    <style name="AppTheme.Module.NoActionBar" parent="AppTheme.Module">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="AppTheme.Translucent" parent="Theme.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/module_1</item><!--软件主色，标题栏的颜色-->
+        <item name="android:textColorPrimary">@color/module_1_text_1
+        </item><!--标题栏的文字颜色、EditText文字颜色-->
+        <item name="colorAccent">@color/main</item><!--Checkbox等控件的颜色-->
+        <item name="colorButtonNormal">@color/main</item>
+        <item name="android:textColorSecondary">@color/module_1_text_3
+        </item><!--如果v21不重写colorControlNormal，这个就是返回按钮的颜色-->
+        <item name="android:textColorTertiary">@color/module_1_text_5</item>
+        <item name="android:textColorHint">@color/module_1_text_3</item><!--hint的颜色-->
+        <item name="android:textColorHighlight">@color/module_1_text_6</item><!--高亮文字颜色-->
+        <item name="android:textColorHighlightInverse">@color/main_text_1</item><!--高亮背景色上的文字颜色-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="colorPrimaryDark">@android:color/transparent
+        </item><!--更深一点的软件主色，如果v21不重写statusBarColor，这个就是状态栏颜色-->
+    </style>
+
+
+</resources>

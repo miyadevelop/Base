@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!--<selector xmlns:android="http://schemas.android.com/apk/res/android"     android:enterFadeDuration="200"--><!--android:exitFadeDuration="200"> --><!--<item  android:state_enabled="true" android:state_pressed="false"> --><!--<shape> --><!--&lt;!&ndash; 描边 &ndash;&gt; --><!--<stroke --><!--android:width="@dimen/button_outline_width"--><!--android:color="@color/button_2_outline"--><!--/> --><!--&lt;!&ndash; 圆角 &ndash;&gt; --><!--<corners --><!--android:radius="@dimen/button_corner_radius"/> --><!--<padding --><!--android:left="@dimen/view_padding_1"--><!--android:top="@dimen/view_padding_1"--><!--android:right="@dimen/view_padding_1"--><!--android:bottom="@dimen/view_padding_1"/> --><!--&lt;!&ndash; 填充 &ndash;&gt;--><!--<solid android:color="@color/button_2_background_normal"/> --><!--</shape> --><!--</item> --><!----><!--<item  android:state_enabled="true" android:state_pressed="true">        --><!--<shape> --><!--&lt;!&ndash; 描边 &ndash;&gt; --><!--<stroke --><!--android:width="@dimen/button_outline_width"--><!--android:color="@color/button_2_outline"--><!--/> --><!--&lt;!&ndash; 圆角 &ndash;&gt; --><!--<corners --><!--android:radius="@dimen/button_corner_radius"/> --><!--<padding --><!--android:left="@dimen/view_padding_1"--><!--android:top="@dimen/view_padding_1"--><!--android:right="@dimen/view_padding_1"--><!--android:bottom="@dimen/view_padding_1"/> --><!--&lt;!&ndash; 填充 &ndash;&gt;--><!--<solid android:color="@color/button_2_background_press"/> --><!--</shape> --><!--</item> --><!----><!--<item  android:state_enabled="false">        --><!--<shape> --><!--&lt;!&ndash; 描边 &ndash;&gt; --><!--<stroke --><!--android:width="@dimen/button_outline_width"--><!--android:color="@color/button_2_outline"--><!--/> --><!--&lt;!&ndash; 圆角 &ndash;&gt; --><!--<corners --><!--android:radius="@dimen/button_corner_radius"/> --><!--<padding --><!--android:left="@dimen/view_padding_1"--><!--android:top="@dimen/view_padding_1"--><!--android:right="@dimen/view_padding_1"--><!--android:bottom="@dimen/view_padding_1"/> --><!--&lt;!&ndash; 填充 &ndash;&gt;--><!--<solid android:color="@color/button_2_background_disable"/> --><!--</shape> --><!--</item> --><!--</selector>-->
+
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?attr/colorButtonNormal" >
+    <item>
+        <shape>
+            <!-- 描边 -->
+            <stroke
+                android:width="@dimen/button_outline_width"
+                android:color="?attr/colorButtonNormal" />
+            <!-- 圆角 -->
+            <corners android:radius="@dimen/button_corner_radius" />
+            <padding
+                android:bottom="@dimen/view_padding_1"
+                android:left="@dimen/view_padding_1"
+                android:right="@dimen/view_padding_1"
+                android:top="@dimen/view_padding_1" />
+            <!-- 填充 -->
+            <solid android:color="?attr/colorPrimary" />
+        </shape>
+    </item>
+</ripple>

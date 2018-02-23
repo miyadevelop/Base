@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="AppBaseTheme" parent="AppTheme.Module.NoActionBar">
+        </style>
+        <!-- Application theme. -->
+        <style name="AppTheme" parent="AppBaseTheme">
+                <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        </style>
+
+
+        <style name="AppTheme.WithActionBar" parent="AppTheme.Module">
+                <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        </style>
+
+        <style name="AppTheme.Main.NoActionBar" parent="AppTheme.Main">
+                <item name="windowActionBar">false</item>
+                <item name="windowNoTitle">true</item>
+                <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+                <item name="android:statusBarColor">@color/main</item><!--状态栏颜色-->
+                <item name="android:colorControlHighlight">@color/main_text_2</item><!--返回按钮点击后，波纹效果的颜色-->
+                <item name="android:colorControlNormal">@color/main_text_1</item><!--返回按钮颜色-->
+                <item name="android:colorControlActivated">@color/main_text_1</item><!--radiobutton等控件、返回按钮选中颜色-->
+        </style>
+
+
+        <style name="AppTheme.Module" parent="Theme.AppCompat.Light">
+                <item name="android:statusBarColor">@color/module_1</item><!--状态栏颜色-->
+                <item name="colorPrimary">@color/module_1</item><!--软件主色，标题栏的颜色-->
+                <item name="android:textColorPrimary">@color/module_1_text_1
+                </item><!--标题栏的文字颜色、EditText文字颜色-->
+                <item name="colorPrimaryDark">@color/main
+                </item><!--更深一点的软件主色，如果v21不重写statusBarColor，这个就是状态栏颜色-->
+                <item name="colorAccent">@color/main</item><!--Checkbox等控件的颜色-->
+                <item name="colorButtonNormal">@color/main</item>
+                <!--<item name="android:textColor">@color/module_1_text_1</item>&lt;!&ndash; Snackbar文字颜色、大背景文字颜色&ndash;&gt;-->
+                <item name="android:windowBackground">@color/background</item><!--界面默认背景色-->
+                <item name="android:textColorSecondary">@color/module_1_text_3
+                </item><!--如果v21不重写colorControlNormal，这个就是返回按钮的颜色-->
+                <item name="android:textColorTertiary">@color/module_1_text_5</item>
+                <item name="android:textColorHint">@color/module_1_text_3</item><!--hint的颜色-->
+                <item name="android:textColorHighlight">@color/module_1_text_6</item><!--高亮文字颜色-->
+                <item name="android:textColorHighlightInverse">@color/main_text_1</item><!--高亮背景色上的文字颜色-->
+                <item name="colorControlNormal">@color/module_1_text_3</item>
+                <item name="colorControlHighlight">@color/main</item>
+                <item name="colorControlActivated">@color/main</item>
+                <item name="android:windowLightStatusBar">true</item><!--6.0以上状态栏文字变为黑色-->
+        </style>
+
+        <style name="AppTheme.Module.NoActionBar" parent="AppTheme.Module">
+                <item name="windowActionBar">false</item>
+                <item name="windowNoTitle">true</item>
+                <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+                <item name="android:statusBarColor">@color/module_1</item><!--状态栏颜色-->
+                <item name="android:colorControlHighlight">@color/main</item><!--返回按钮点击后，波纹效果的颜色-->
+                <item name="android:colorControlNormal">@color/main</item><!--radiobutton等控件、返回按钮颜色-->
+                <item name="android:colorControlActivated">@color/main</item><!--radiobutton等控件、返回按钮选中颜色-->
+                <item name="android:windowLightStatusBar">true</item><!--6.0以上状态栏文字变为黑色-->
+        </style>
+
+
+        <!--<style name="AppTheme.Translucent" parent="Theme.AppCompat.Light">-->
+                <!--<item name="windowActionBar">false</item>-->
+                <!--<item name="windowNoTitle">true</item>-->
+                <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+                <!--<item name="android:windowNoTitle">true</item>-->
+                <!--<item name="android:windowIsTranslucent">true</item>-->
+                <!--<item name="android:statusBarColor">@android:color/transparent</item>&lt;!&ndash;状态栏颜色&ndash;&gt;-->
+        <!--</style>-->
+</resources>

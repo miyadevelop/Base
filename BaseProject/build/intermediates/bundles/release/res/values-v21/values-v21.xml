@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="AppTheme.Module.NoActionBar">
+        </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+                <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        </style>
+    <style name="AppTheme.Main.NoActionBar" parent="AppTheme.Main">
+                <item name="windowActionBar">false</item>
+                <item name="windowNoTitle">true</item>
+                <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+                <item name="android:statusBarColor">@color/main</item><!--状态栏颜色-->
+                <item name="android:colorControlHighlight">@color/main_text_2</item><!--返回按钮点击后，波纹效果的颜色-->
+                <item name="android:colorControlNormal">@color/main_text_1</item><!--返回按钮颜色-->
+                <item name="android:colorControlActivated">@color/main_text_1</item><!--radiobutton等控件、返回按钮选中颜色-->
+        </style>
+    <style name="AppTheme.Module.NoActionBar" parent="AppTheme.Module">
+                <item name="windowActionBar">false</item>
+                <item name="windowNoTitle">true</item>
+                <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+                <item name="android:statusBarColor">@color/main</item><!--状态栏颜色-->
+                <item name="android:colorControlHighlight">@color/main</item><!--返回按钮点击后，波纹效果的颜色-->
+                <item name="android:colorControlNormal">@color/main</item><!--radiobutton等控件、返回按钮颜色-->
+                <item name="android:colorControlActivated">@color/main</item><!--radiobutton等控件、返回按钮选中颜色-->
+        </style>
+    <style name="AppTheme.WithActionBar" parent="AppTheme.Module">
+                <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        </style>
+</resources>

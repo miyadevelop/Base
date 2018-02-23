@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/release/xml/help.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/exploded-aar/Shop/BaseResProject/unspecified/res/xml/help.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/release/xml/settings.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/exploded-aar/Shop/BaseResProject/unspecified/res/xml/settings.xml"
+    }
+]

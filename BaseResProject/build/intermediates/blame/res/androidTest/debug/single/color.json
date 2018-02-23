@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/abc_tint_spinner.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/design_tint_password_toggle.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/color/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/abc_search_url_text.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/button_warning_text.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/bundles/debug/res/color/button_warning_text.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/abc_tint_edittext.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/button_4_text.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/bundles/debug/res/color/button_4_text.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/tab_text.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/bundles/debug/res/color/tab_text.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/button_2_text.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/bundles/debug/res/color/button_2_text.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/button_1_text.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/bundles/debug/res/color/button_1_text.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/tab_text_1.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/bundles/debug/res/color/tab_text_1.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/design_error.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/color/design_error.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/abc_tint_switch_track.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/color/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/abc_tint_default.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/color/button_3_text.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/bundles/debug/res/color/button_3_text.xml"
+    }
+]

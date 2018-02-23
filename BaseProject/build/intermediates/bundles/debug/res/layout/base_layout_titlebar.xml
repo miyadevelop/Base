@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 标题栏 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:base="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/titlebar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/view_title_height"
+    android:background="@color/main"
+    android:gravity="center_vertical" >
+
+    <LinearLayout
+        android:id="@+id/titlebar_layout_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <!-- 默认左边返回按钮 -->
+
+        <com.lf.view.tools.MyImageButton
+            android:id="@+id/titlebar_btn_left"
+            android:layout_width="@dimen/view_title_height"
+            android:layout_height="@dimen/view_title_height"
+            android:padding="@dimen/view_padding_2"
+            android:scaleType="fitXY"
+            android:src="@drawable/button_back_normal"
+            base:my_color="@color/image_button_1" />
+    </LinearLayout>
+
+    <!-- 标题文字 -->
+
+    <TextView
+        android:id="@+id/titlebar_text_title"
+        style="@style/main_text_1_4"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/view_title_height"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:singleLine="true"
+        android:ellipsize="middle"
+        android:layout_marginRight="10dp"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/titlebar_layout_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/view_title_height"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal" >
+
+        <!-- 右边备用按钮，默认不可见 -->
+
+        <com.lf.view.tools.MyImageButton
+            android:id="@+id/titlebar_btn_right_backup"
+            android:layout_width="@dimen/view_title_height"
+            android:layout_height="@dimen/view_title_height"
+            android:padding="@dimen/view_padding_2"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            base:my_color="@color/image_button_1" />
+
+        <!-- 右边按钮，默认不可见 -->
+
+        <com.lf.view.tools.MyImageButton
+            android:id="@+id/titlebar_btn_right"
+            android:layout_width="@dimen/view_title_height"
+            android:layout_height="@dimen/view_title_height"
+            android:padding="@dimen/view_padding_2"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            base:my_color="@color/image_button_1" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <!-- android.support.v4.view.ViewPager -->
+
+    <com.lf.view.tools.activity.support.AssetsGallery
+        android:id="@+id/guide_view_help"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:spacing="0dp" />
+
+    <com.lf.view.tools.activity.support.VerticalViewPager
+        android:id="@+id/guide_vertical_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.lf.view.tools.activity.support.VerticalViewPager>
+
+    <View
+        android:id="@+id/lasttoucharea"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/guide_guide_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+    </LinearLayout>
+
+</RelativeLayout>
