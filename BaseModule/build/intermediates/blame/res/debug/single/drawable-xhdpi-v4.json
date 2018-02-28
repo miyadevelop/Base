@@ -392,12 +392,12 @@
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/drawable-xhdpi-v4/aliwx_s005.png"
     },
     {
-        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/drawable-xhdpi-v4/aliwx_s097.png",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/drawable-xhdpi-v4/aliwx_s097.png"
-    },
-    {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/drawable-xhdpi-v4/aliwx_hold_to_speak_icon_voice3.png",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/drawable-xhdpi-v4/aliwx_hold_to_speak_icon_voice3.png"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/drawable-xhdpi-v4/aliwx_s097.png",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/drawable-xhdpi-v4/aliwx_s097.png"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/drawable-xhdpi-v4/aliwx_g011.png",

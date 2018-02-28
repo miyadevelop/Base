@@ -35,4 +35,5 @@ dependencies {
     //    compile project(':PaySdk')
     //阿里即时通信和客服
     compile(name: 'im_wx-release', ext: 'aar')
+    compile(name: 'pay_PaySdk-release', ext: 'aar')
 }

@@ -103,20 +103,18 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="support-compat-26.0.0-alpha1" level="project" />
     <orderEntry type="library" exported="" name="support-core-ui-26.0.0-alpha1" level="project" />
-    <orderEntry type="library" exported="" name="animated-vector-drawable-26.0.0-alpha1" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-26.0.0-alpha1" level="project" />
+    <orderEntry type="library" exported="" name="animated-vector-drawable-26.0.0-alpha1" level="project" />
     <orderEntry type="library" exported="" name="support-v4-26.0.0-alpha1" level="project" />
-    <orderEntry type="library" exported="" name="pay_alipaySdk-20160825" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="hamcrest-core-1.3" level="project" />
     <orderEntry type="library" exported="" name="im_wx-release-" level="project" />
+    <orderEntry type="library" exported="" name="pay_PaySdk-release-" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="junit-4.12" level="project" />
-    <orderEntry type="library" exported="" name="pay_dom4j-1.6.1" level="project" />
     <orderEntry type="library" exported="" name="support-vector-drawable-26.0.0-alpha1" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-26.0.0-alpha1" level="project" />
     <orderEntry type="library" exported="" name="support-media-compat-26.0.0-alpha1" level="project" />
     <orderEntry type="library" exported="" name="support-core-utils-26.0.0-alpha1" level="project" />
     <orderEntry type="library" exported="" name="support-fragment-26.0.0-alpha1" level="project" />
-    <orderEntry type="library" exported="" name="pay_sdk" level="project" />
     <orderEntry type="module" module-name="BaseProject" exported="" />
   </component>
 </module>

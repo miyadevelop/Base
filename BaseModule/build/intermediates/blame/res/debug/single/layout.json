@@ -20,12 +20,12 @@
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/aliwx_viewlet_remote_user.xml"
     },
     {
-        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout/abc_alert_dialog_material.xml"
-    },
-    {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/aliwx_fragment_at_msg_list.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/aliwx_fragment_at_msg_list.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout/abc_alert_dialog_material.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/aliwx_chatting_detail_phrase_list.xml",
@@ -80,16 +80,16 @@
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/aliwx_chatting_detail_feedback_view.xml"
     },
     {
-        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/umeng_socialize_base_alert_dialog_button.xml",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseProject/unspecified/res/layout/umeng_socialize_base_alert_dialog_button.xml"
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/aliwx_chatting_detail_first_new_msg_notify.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/aliwx_chatting_detail_first_new_msg_notify.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/aliwx_chatting_detail_first_new_msg_notify.xml",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/aliwx_chatting_detail_first_new_msg_notify.xml"
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/umeng_socialize_base_alert_dialog_button.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseProject/unspecified/res/layout/umeng_socialize_base_alert_dialog_button.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
@@ -104,16 +104,16 @@
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/aliwx_list_dialog_layout.xml"
     },
     {
-        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/aliwx_title_bar_shadow.xml",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/aliwx_title_bar_shadow.xml"
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/aliwx_image_detail_fragment.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/aliwx_image_detail_fragment.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/chatting_selfhelp_menu_bar.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/chatting_selfhelp_menu_bar.xml"
     },
     {
-        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/aliwx_image_detail_fragment.xml",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/aliwx_image_detail_fragment.xml"
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/aliwx_title_bar_shadow.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/aliwx_title_bar_shadow.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
@@ -124,12 +124,12 @@
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseProject/unspecified/res/layout/umeng_socialize_simple_spinner_item.xml"
     },
     {
-        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/aliwx_contact_search_item.xml",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/aliwx_contact_search_item.xml"
-    },
-    {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/aliwx_chatting_detail_list.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/aliwx_chatting_detail_list.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/aliwx_contact_search_item.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/aliwx_contact_search_item.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/base_layout_dialog_2.xml",
@@ -184,20 +184,20 @@
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseProject/unspecified/res/layout/umeng_socialize_base_alert_dialog.xml"
     },
     {
-        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/aliwx_friends_item.xml",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/aliwx_friends_item.xml"
-    },
-    {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/aliwx_list_dialog_item.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/aliwx_list_dialog_item.xml"
     },
     {
-        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/activity_picture_preview.xml",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseProject/unspecified/res/layout/activity_picture_preview.xml"
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/aliwx_friends_item.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/aliwx_friends_item.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/umeng_socialize_failed_load_page.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseProject/unspecified/res/layout/umeng_socialize_failed_load_page.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/activity_picture_preview.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseProject/unspecified/res/layout/activity_picture_preview.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/aliwx_check_code.xml",
@@ -212,12 +212,12 @@
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/aliwx_circle_imageview.xml"
     },
     {
-        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/aliwx_select_friend.xml",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/aliwx_select_friend.xml"
-    },
-    {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/aliwx_self_help_menu_click_progress_layout.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/aliwx_self_help_menu_click_progress_layout.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/aliwx_select_friend.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/aliwx_select_friend.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/aliwx_smiley_layout.xml",
@@ -376,12 +376,12 @@
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout/abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/self_help_menu_layout.xml",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/self_help_menu_layout.xml"
-    },
-    {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/base_layout_load.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseProject/unspecified/res/layout/base_layout_load.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/self_help_menu_layout.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/layout/self_help_menu_layout.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/aliwx_chatting_detail_hongbao_item.xml",
@@ -473,7 +473,7 @@
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/pay_layout_dialog_install_plug.xml",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/PaySdk/unspecified/res/layout/pay_layout_dialog_install_plug.xml"
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/pay_PaySdk-release/res/layout/pay_layout_dialog_install_plug.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/aliwx_activity_send_at_msg_detail.xml",
@@ -753,7 +753,7 @@
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/PaySdk/unspecified/res/layout/activity_main.xml"
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/pay_PaySdk-release/res/layout/activity_main.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
@@ -973,7 +973,7 @@
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/pay_result.xml",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/PaySdk/unspecified/res/layout/pay_result.xml"
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/pay_PaySdk-release/res/layout/pay_result.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",

@@ -22,6 +22,7 @@ android {
 repositories {
     flatDir {
         dirs project(':BaseModule').file('libs')
+        dirs project(':BaseApp').file('libs')
     }
 }
 
@@ -30,6 +31,8 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
     compile project(':BaseModule')
-    compile project(':PushSDK')
-    compile project(':circular_progress_button')
+    compile(name: 'user_circular_progress_button-release', ext: 'aar')
+    compile(name: 'push_PushSDK-release', ext: 'aar')
+//    compile project(':PushSDK')
+//    compile project(':circular_progress_button')
 }

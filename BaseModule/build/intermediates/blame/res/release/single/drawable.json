@@ -104,12 +104,12 @@
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseResProject/unspecified/res/drawable/umeng_socialize_qq_off.png"
     },
     {
-        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/release/drawable/umeng_socialize_title_tab_left_pressed.png",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseResProject/unspecified/res/drawable/umeng_socialize_title_tab_left_pressed.png"
-    },
-    {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/release/drawable/view_module_1_click.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseResProject/unspecified/res/drawable/view_module_1_click.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/release/drawable/umeng_socialize_title_tab_left_pressed.png",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseResProject/unspecified/res/drawable/umeng_socialize_title_tab_left_pressed.png"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/release/drawable/abc_btn_check_material.xml",
@@ -180,16 +180,16 @@
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/release/drawable/abc_ic_clear_material.xml",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_ic_clear_material.xml"
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/release/drawable/umeng_socialize_wechat_gray.png",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseResProject/unspecified/res/drawable/umeng_socialize_wechat_gray.png"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/release/drawable/aliwx_hongbao_send_btn_bg_color_p.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/drawable/aliwx_hongbao_send_btn_bg_color_p.xml"
     },
     {
-        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/release/drawable/umeng_socialize_wechat_gray.png",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseResProject/unspecified/res/drawable/umeng_socialize_wechat_gray.png"
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/release/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_ic_clear_material.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/release/drawable/aliwx_wq_common_green_btn_bg.xml",
@@ -236,12 +236,12 @@
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/drawable/aliwx_topbar_icon_message_bg.xml"
     },
     {
-        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/release/drawable/view_module_2_click.xml",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseResProject/unspecified/res/drawable/view_module_2_click.xml"
-    },
-    {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/release/drawable/umeng_socialize_title_tab_button_left.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseResProject/unspecified/res/drawable/umeng_socialize_title_tab_button_left.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/release/drawable/view_module_2_click.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseResProject/unspecified/res/drawable/view_module_2_click.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
@@ -476,12 +476,12 @@
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/drawable/aliwx_video_chat_gradient_top_bg.xml"
     },
     {
-        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/release/drawable/umeng_socialize_nav_bar_bg.png",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseResProject/unspecified/res/drawable/umeng_socialize_nav_bar_bg.png"
-    },
-    {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/release/drawable/aliwx_btn_text_color.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/drawable/aliwx_btn_text_color.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/release/drawable/umeng_socialize_nav_bar_bg.png",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseResProject/unspecified/res/drawable/umeng_socialize_nav_bar_bg.png"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/release/drawable/aliwx_common_back_btn_bg.xml",
