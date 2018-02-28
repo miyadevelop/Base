@@ -7,30 +7,30 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endLine": 4,
+                    "endLine": 3,
                     "endColumn": 12,
-                    "endOffset": 187
+                    "endOffset": 132
                 },
                 "from": {
-                    "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/PaySdk/unspecified/res/values-v11/values-v11.xml",
+                    "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseProject/unspecified/res/values-v11/values-v11.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
                         "startOffset": 55,
-                        "endLine": 4,
+                        "endLine": 3,
                         "endColumn": 12,
-                        "endOffset": 187
+                        "endOffset": 132
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 5,
+                    "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 192,
-                    "endLine": 7,
+                    "startOffset": 137,
+                    "endLine": 6,
                     "endColumn": 12,
-                    "endOffset": 361
+                    "endOffset": 306
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseProject/unspecified/res/values-v11/values-v11.xml",
@@ -46,12 +46,12 @@
             },
             {
                 "to": {
-                    "startLine": 8,
+                    "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 366,
-                    "endLine": 13,
+                    "startOffset": 311,
+                    "endLine": 12,
                     "endColumn": 12,
-                    "endOffset": 780
+                    "endOffset": 725
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -67,12 +67,12 @@
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 785,
-                    "endLine": 19,
+                    "startOffset": 730,
+                    "endLine": 18,
                     "endColumn": 12,
-                    "endOffset": 1205
+                    "endOffset": 1150
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -88,12 +88,12 @@
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1210,
-                    "endLine": 25,
+                    "startOffset": 1155,
+                    "endLine": 24,
                     "endColumn": 12,
-                    "endOffset": 1633
+                    "endOffset": 1578
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -109,12 +109,12 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 1638,
-                    "endLine": 31,
+                    "startOffset": 1583,
+                    "endLine": 30,
                     "endColumn": 12,
-                    "endOffset": 2059
+                    "endOffset": 2004
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -130,12 +130,12 @@
             },
             {
                 "to": {
-                    "startLine": 32,
+                    "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 2064,
-                    "endLine": 37,
+                    "startOffset": 2009,
+                    "endLine": 36,
                     "endColumn": 12,
-                    "endOffset": 2486
+                    "endOffset": 2431
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -151,12 +151,12 @@
             },
             {
                 "to": {
-                    "startLine": 38,
+                    "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 2491,
-                    "endLine": 43,
+                    "startOffset": 2436,
+                    "endLine": 42,
                     "endColumn": 12,
-                    "endOffset": 2911
+                    "endOffset": 2856
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -172,11 +172,11 @@
             },
             {
                 "to": {
-                    "startLine": 44,
+                    "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 2916,
+                    "startOffset": 2861,
                     "endColumn": 88,
-                    "endOffset": 3000
+                    "endOffset": 2945
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -191,12 +191,12 @@
             },
             {
                 "to": {
-                    "startLine": 45,
+                    "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 3005,
-                    "endLine": 48,
+                    "startOffset": 2950,
+                    "endLine": 47,
                     "endColumn": 12,
-                    "endOffset": 3246
+                    "endOffset": 3191
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -212,12 +212,12 @@
             },
             {
                 "to": {
-                    "startLine": 49,
+                    "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 3251,
-                    "endLine": 52,
+                    "startOffset": 3196,
+                    "endLine": 51,
                     "endColumn": 12,
-                    "endOffset": 3495
+                    "endOffset": 3440
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -233,11 +233,11 @@
             },
             {
                 "to": {
-                    "startLine": 53,
+                    "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 3500,
+                    "startOffset": 3445,
                     "endColumn": 100,
-                    "endOffset": 3596
+                    "endOffset": 3541
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -252,12 +252,12 @@
             },
             {
                 "to": {
-                    "startLine": 54,
+                    "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 3601,
-                    "endLine": 57,
+                    "startOffset": 3546,
+                    "endLine": 56,
                     "endColumn": 12,
-                    "endOffset": 3848
+                    "endOffset": 3793
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -273,12 +273,12 @@
             },
             {
                 "to": {
-                    "startLine": 58,
+                    "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 3853,
-                    "endLine": 61,
+                    "startOffset": 3798,
+                    "endLine": 60,
                     "endColumn": 12,
-                    "endOffset": 4103
+                    "endOffset": 4048
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -294,11 +294,11 @@
             },
             {
                 "to": {
-                    "startLine": 62,
+                    "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 4108,
+                    "startOffset": 4053,
                     "endColumn": 102,
-                    "endOffset": 4206
+                    "endOffset": 4151
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -313,12 +313,12 @@
             },
             {
                 "to": {
-                    "startLine": 63,
+                    "startLine": 62,
                     "startColumn": 4,
-                    "startOffset": 4211,
-                    "endLine": 66,
+                    "startOffset": 4156,
+                    "endLine": 65,
                     "endColumn": 12,
-                    "endOffset": 4459
+                    "endOffset": 4404
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -334,12 +334,12 @@
             },
             {
                 "to": {
-                    "startLine": 67,
+                    "startLine": 66,
                     "startColumn": 4,
-                    "startOffset": 4464,
-                    "endLine": 71,
+                    "startOffset": 4409,
+                    "endLine": 70,
                     "endColumn": 12,
-                    "endOffset": 4867
+                    "endOffset": 4812
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -355,12 +355,12 @@
             },
             {
                 "to": {
-                    "startLine": 72,
+                    "startLine": 71,
                     "startColumn": 4,
-                    "startOffset": 4872,
-                    "endLine": 76,
+                    "startOffset": 4817,
+                    "endLine": 75,
                     "endColumn": 12,
-                    "endOffset": 5287
+                    "endOffset": 5232
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -376,12 +376,12 @@
             },
             {
                 "to": {
-                    "startLine": 77,
+                    "startLine": 76,
                     "startColumn": 4,
-                    "startOffset": 5292,
-                    "endLine": 81,
+                    "startOffset": 5237,
+                    "endLine": 80,
                     "endColumn": 12,
-                    "endOffset": 5709
+                    "endOffset": 5654
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -397,12 +397,12 @@
             },
             {
                 "to": {
-                    "startLine": 82,
+                    "startLine": 81,
                     "startColumn": 4,
-                    "startOffset": 5714,
-                    "endLine": 83,
+                    "startOffset": 5659,
+                    "endLine": 82,
                     "endColumn": 12,
-                    "endOffset": 5816
+                    "endOffset": 5761
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -418,12 +418,12 @@
             },
             {
                 "to": {
-                    "startLine": 84,
+                    "startLine": 83,
                     "startColumn": 4,
-                    "startOffset": 5821,
-                    "endLine": 85,
+                    "startOffset": 5766,
+                    "endLine": 84,
                     "endColumn": 12,
-                    "endOffset": 5945
+                    "endOffset": 5890
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -439,11 +439,11 @@
             },
             {
                 "to": {
-                    "startLine": 86,
+                    "startLine": 85,
                     "startColumn": 4,
-                    "startOffset": 5950,
+                    "startOffset": 5895,
                     "endColumn": 70,
-                    "endOffset": 6016
+                    "endOffset": 5961
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -458,11 +458,11 @@
             },
             {
                 "to": {
-                    "startLine": 87,
+                    "startLine": 86,
                     "startColumn": 4,
-                    "startOffset": 6021,
+                    "startOffset": 5966,
                     "endColumn": 82,
-                    "endOffset": 6099
+                    "endOffset": 6044
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -477,12 +477,12 @@
             },
             {
                 "to": {
-                    "startLine": 88,
+                    "startLine": 87,
                     "startColumn": 4,
-                    "startOffset": 6104,
-                    "endLine": 141,
+                    "startOffset": 6049,
+                    "endLine": 140,
                     "endColumn": 12,
-                    "endOffset": 10124
+                    "endOffset": 10069
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -498,12 +498,12 @@
             },
             {
                 "to": {
-                    "startLine": 142,
+                    "startLine": 141,
                     "startColumn": 4,
-                    "startOffset": 10129,
-                    "endLine": 196,
+                    "startOffset": 10074,
+                    "endLine": 195,
                     "endColumn": 12,
-                    "endOffset": 14292
+                    "endOffset": 14237
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",
@@ -519,11 +519,11 @@
             },
             {
                 "to": {
-                    "startLine": 197,
+                    "startLine": 196,
                     "startColumn": 4,
-                    "startOffset": 14297,
+                    "startOffset": 14242,
                     "endColumn": 90,
-                    "endOffset": 14383
+                    "endOffset": 14328
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-v11/values-v11.xml",

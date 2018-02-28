@@ -49,7 +49,7 @@
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/color/aliwx_hongbao_send_text_color.xml",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/wx/unspecified/res/color/aliwx_hongbao_send_text_color.xml"
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/color/aliwx_hongbao_send_text_color.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
@@ -65,7 +65,7 @@
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/color/aliwx_tab_text_color.xml",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/wx/unspecified/res/color/aliwx_tab_text_color.xml"
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/color/aliwx_tab_text_color.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
@@ -101,7 +101,7 @@
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/color/aliwx_at_msg_mark_all_read_text_color.xml",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/wx/unspecified/res/color/aliwx_at_msg_mark_all_read_text_color.xml"
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/im_wx-release/res/color/aliwx_at_msg_mark_all_read_text_color.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",

@@ -73,6 +73,7 @@ public class ImManager {
         filter.addAction(UserManager.getInstance(App.mContext).getRegistAction());
         filter.setPriority(100000);
         mContext.registerReceiver(mReceiver, filter);
+
     }
 
 
