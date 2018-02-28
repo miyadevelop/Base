@@ -408,6 +408,7 @@
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
+    <item name="base_tag_id" type="id"/>
     <item name="home" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
     <item name="progress_circular" type="id"/>
@@ -513,6 +514,9 @@
     <string name="linkedin_content">linked只支持纯文本分享</string>
     <string name="linkedin_no_client">未安装LinkedIn客户端</string>
     <string name="linkedin_showword">LinkedIn</string>
+    <string name="load_failed">加载失败，点击重新加载</string>
+    <string name="load_no_data">- 居然啥都没 -</string>
+    <string name="load_over">- 到底了 -</string>
     <string name="network_connections_canel">取消</string>
     <string name="network_connections_check">检查网络</string>
     <string name="network_connections_disconnection">您的网络没开，请联网开启云端服务。</string>

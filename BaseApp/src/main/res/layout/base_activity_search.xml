@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:title="">
+
+            <LinearLayout
+                android:id="@+id/search_layout_search"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edit_edit"
+                        style="@style/module_1_text_1_3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="33dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical|left"
+                        android:hint="@string/search_search_hint"
+                        android:imeOptions="actionSearch"
+                        android:singleLine="true"
+                        android:textColorHint="@color/module_1_text_3" />
+
+                    <ImageView
+                        android:id="@+id/edit_button_clear"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0"
+                        android:background="@drawable/view_module_1_click_no_bg"
+                        android:contentDescription="@null"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_clear_black_24dp"
+                        android:tint="@color/module_1_text_1"
+                        android:visibility="invisible" />
+                </LinearLayout>
+
+                <!--<ImageButton-->
+                <!--android:id="@+id/search_button_search"-->
+                <!--android:layout_width="30dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_marginRight="16dp"-->
+                <!--android:layout_weight="0"-->
+                <!--android:background="@drawable/shop_ripple_module_1"-->
+                <!--android:scaleType="centerInside"-->
+                <!--android:src="@drawable/ic_search_black_24dp"-->
+                <!--android:tint="@color/module_1_text_1" />-->
+
+            </LinearLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/line_height"
+        android:background="?android:attr/windowBackground"></View>
+
+
+    <LinearLayout
+        android:id="@+id/search_layout_search_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            style="@style/module_1_text_3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/search_history" />
+
+
+        <!-- 搜索热词 -->
+        <com.lf.view.tools.FlowLayout
+            android:id="@+id/search_list_hot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_bar"
+            android:layout_marginTop="10dp"
+            app:textPaddingH="20dp"
+            app:textPaddingV="2dp"></com.lf.view.tools.FlowLayout>
+
+        <LinearLayout
+            android:id="@+id/search_layout_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    style="@style/module_1_text_3_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/search_hot" />
+
+
+                <ImageButton
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/view_module_1_click_no_bg"
+                    android:onClick="clearHistory"
+                    android:src="@drawable/ic_delete_black_24dp"
+                    android:tint="@color/module_1_text_3" />
+            </RelativeLayout>
+
+
+            <!-- 搜索历史 -->
+            <com.lf.view.tools.FlowLayout
+                android:id="@+id/search_list_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title_bar"
+                android:layout_marginTop="10dp"
+                app:textPaddingH="20dp"
+                app:textPaddingV="2dp"></com.lf.view.tools.FlowLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--<ListView-->
+    <!--android:id="@+id/search_list_history"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:layout_below="@+id/title_bar"-->
+    <!--android:layout_marginTop="4dp"-->
+    <!--android:divider="@color/module_1_line"-->
+    <!--android:dividerHeight="@dimen/line_height"-->
+    <!--android:visibility="gone" />-->
+
+    <FrameLayout
+        android:visibility="gone"
+        android:id="@+id/search_layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+
+</LinearLayout>
+
+

@@ -8,6 +8,10 @@
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/bundles/debug/res/drawable-v21/view_module_1_click.xml"
     },
     {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/drawable-v21/view_module_1_click_no_bg_highlight.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/bundles/debug/res/drawable-v21/view_module_1_click_no_bg_highlight.xml"
+    },
+    {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/drawable-v21/avd_hide_password.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/drawable-v21/avd_hide_password.xml"
     },
@@ -34,6 +38,10 @@
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/drawable-v21/design_password_eye.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/drawable-v21/view_module_1_click_no_bg.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/bundles/debug/res/drawable-v21/view_module_1_click_no_bg.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/drawable-v21/design_bottom_navigation_item_background.xml",

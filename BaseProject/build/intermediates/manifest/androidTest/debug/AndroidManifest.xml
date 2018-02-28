@@ -63,6 +63,10 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.lf.view.tools.GlideConfiguration"
+            android:value="GlideModule" />
     </application>
 
 </manifest>

@@ -5,7 +5,6 @@ import android.content.Context;
 import com.lf.controler.tools.download.DownloadCheckTask;
 import com.lf.controler.tools.download.helper.LoadUtils;
 import com.lf.controler.tools.download.helper.NetLoader;
-import com.my.m.R;
 
 import org.json.JSONObject;
 
@@ -55,10 +54,10 @@ public class VerficationLoader extends NetLoader{
 	public DownloadCheckTask initDownloadTask() {
 		DownloadCheckTask task = new DownloadCheckTask();
 		task.mIsSimple  = true;
-		task.mUrl = Consts.HOST + "/mall/obtainGet.json";
+		task.mUrl = Consts.getHost(getContext()) + "/mall/obtainGet.json";
 		task.addMustParams("phone");
 		LoadUtils.addUniversalParam(getContext(), task);
-		task.addParams("appKey", getContext().getString(R.string.app_key));
+		task.addParams("appKey", Consts.getAppKey(getContext()));
 		return task;
 	}
 

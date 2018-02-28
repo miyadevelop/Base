@@ -9,7 +9,6 @@ import android.webkit.CookieManager;
 import android.webkit.CookieSyncManager;
 
 import com.lf.app.App;
-import com.my.m.R;
 
 public class UserManager {
 
@@ -22,7 +21,7 @@ public class UserManager {
     private UpdateUserLoader mUpdateUserLoader;//更新用户信息
     private UserInfoLoader mUserInfoLoader;//获取用户信息接口
     private Context mContext;
-    //    public static String LOGIN_ACTION = "mall_login";
+//    public static String LOGIN_ACTION = "mall_login";
     private User mUser;//当前登录的用户
 
 
@@ -42,8 +41,8 @@ public class UserManager {
 
     private UserManager(Context context) {
         mContext = context.getApplicationContext();
+
         mUser = new User();
-        setHost(mContext.getString(R.string.app_host));//默认host
 //        mRALLoader = new RegistAndLoginLoader(mContext);
 //        mLoginAutoLoader = new LoginAutoLoader(mContext);
 //        mUpdateUserLoader = new UpdateUserLoader(mContext);
@@ -51,16 +50,19 @@ public class UserManager {
 
 
     public void setHost(String host) {
-        Consts.HOST = host;
+        Consts.setHost(host);
     }
 
-    //================注册并登录======================
+    public void setAppKey(String appKey) {
+        Consts.setAppKey(appKey);
+    }
 
+
+    //================注册并登录======================
     /**
      * 通过手机号注册并登录，已有账号则登录，没账号则注册
-     *
      * @param phone 手机号
-     * @param code  验证码
+     * @param code 验证码
      */
     public void registAndLoginByPhone(String phone, String code) {
         getRALLoader().phone(phone, code);
@@ -69,7 +71,6 @@ public class UserManager {
 
     /**
      * 通过微信id注册并登录，已有账号则登录，没账号则注册
-     *
      * @param wechatId 微信平台的id
      */
     public void registAndLoginByWechat(String wechatId) {
@@ -79,7 +80,6 @@ public class UserManager {
 
     /**
      * 通过qq的id注册并登录，已有账号则登录，没账号则注册
-     *
      * @param qqId 微信平台的id
      */
     public void registAndLoginByQQ(String qqId) {
@@ -88,12 +88,10 @@ public class UserManager {
 
 
     //================登录======================
-
     /**
      * 通过手机号登录，已有账号则登录，没账号则登录失败
-     *
      * @param phone 手机号
-     * @param code  验证码
+     * @param code 验证码
      */
     public void loginByPhone(String phone, String code) {
         getLLoader().phone(phone, code);
@@ -102,7 +100,6 @@ public class UserManager {
 
     /**
      * 通过微信id登录，已有账号则登录，没账号则登录失败
-     *
      * @param wechatId 微信平台的id
      */
     public void loginByWechat(String wechatId) {
@@ -112,7 +109,6 @@ public class UserManager {
 
     /**
      * 通过qq的id登录，已有账号则登录，没账号则登录失败
-     *
      * @param qqId 微信平台的id
      */
     public void loginByQQ(String qqId) {
@@ -130,12 +126,10 @@ public class UserManager {
     }
 
     //================注册======================
-
     /**
      * 通过手机号注册，已有账号则注册失败，没账号则注册
-     *
      * @param phone 手机号
-     * @param code  验证码
+     * @param code 验证码
      */
     public void registByPhone(String phone, String code) {
         getRLoader().phone(phone, code);
@@ -144,7 +138,6 @@ public class UserManager {
 
     /**
      * 通过微信id注册，已有账号则注册失败，没账号则注册
-     *
      * @param wechatId 微信平台的id
      */
     public void registByWechat(String wechatId) {
@@ -154,7 +147,6 @@ public class UserManager {
 
     /**
      * 通过qq的id注册，已有账号则注册失败，没账号则注册
-     *
      * @param qqId 微信平台的id
      */
     public void registByQQ(String qqId) {
@@ -163,12 +155,10 @@ public class UserManager {
 
 
     //================绑定======================
-
     /**
      * 绑定手机号
-     *
-     * @param phone  手机号
-     * @param code   验证码
+     * @param phone 手机号
+     * @param code 验证码
      * @param status 绑定：true，解绑：false
      */
     public void bindPhone(String phone, String code, boolean status) {
@@ -178,9 +168,8 @@ public class UserManager {
 
     /**
      * 绑定微信
-     *
      * @param wechatId 微信平台的id
-     * @param status   绑定：true，解绑：false
+     * @param status 绑定：true，解绑：false
      */
     public void bindWechat(String wechatId, boolean status) {
         getBindLoader().wechat(wechatId, status);
@@ -189,8 +178,7 @@ public class UserManager {
 
     /**
      * 绑定qq
-     *
-     * @param qqId   微信平台的id
+     * @param qqId 微信平台的id
      * @param status 绑定：true，解绑：false
      */
     public void bindQQ(String qqId, boolean status) {
@@ -199,10 +187,8 @@ public class UserManager {
 
 
     //====================获取用户信息=======================
-
     /**
      * 通过手机号加载用户信息
-     *
      * @param phone 手机号
      */
     public void loadUserInfoByPhone(String phone) {
@@ -212,7 +198,6 @@ public class UserManager {
 
     /**
      * 通过用户id加载用户信息
-     *
      * @param userId 用户id
      */
     public void loadUserInfoById(String userId) {
@@ -222,22 +207,22 @@ public class UserManager {
 
     /**
      * 通过用户id获取用户信息
-     *
      * @param id 用户id
      * @return 一条用户信息
      */
-    public User getUserInfoById(String id) {
+    public User getUserInfoById(String id)
+    {
         return getUserInfoLoader().getUserInfo(id);
     }
 
 
     /**
      * 通过手机号获取用户信息
-     *
      * @param phone 用户手机号
      * @return 一条用户信息
      */
-    public User getUserInfoByPhone(String phone) {
+    public User getUserInfoByPhone(String phone)
+    {
         return getUserInfoLoader().getUserInfo(phone);
     }
 
@@ -344,10 +329,10 @@ public class UserManager {
 
     /**
      * 退出登录广播
-     *
      * @return
      */
-    public String getActionLogout() {
+    public String getActionLogout()
+    {
         return mContext.getPackageName() + ".logout";
     }
 
@@ -362,7 +347,6 @@ public class UserManager {
 
     /**
      * 是否已登录
-     *
      * @return
      */
     public boolean isLogin() {
@@ -398,49 +382,56 @@ public class UserManager {
     }
 
 
-    protected LoginLoader getLLoader() {
-        if (null == mLLoader)
+
+    protected LoginLoader getLLoader()
+    {
+        if(null == mLLoader)
             mLLoader = new LoginLoader(mContext);
         return mLLoader;
     }
 
 
-    protected LoginAutoLoader getLALoader() {
-        if (null == mLALoader)
+    protected LoginAutoLoader getLALoader()
+    {
+        if(null == mLALoader)
             mLALoader = new LoginAutoLoader(mContext);
         return mLALoader;
     }
 
 
-    protected RegistLoader getRLoader() {
-        if (null == mRLoader)
+    protected RegistLoader getRLoader()
+    {
+        if(null == mRLoader)
             mRLoader = new RegistLoader(mContext);
         return mRLoader;
     }
 
 
-    protected RegistAndLoginLoader getRALLoader() {
-        if (null == mRALLoader)
+    protected RegistAndLoginLoader getRALLoader()
+    {
+        if(null == mRALLoader)
             mRALLoader = new RegistAndLoginLoader(mContext);
         return mRALLoader;
     }
 
 
     protected BindLoader getBindLoader() {
-        if (null == mBindLoader)
+        if(null == mBindLoader)
             mBindLoader = new BindLoader(mContext);
         return mBindLoader;
     }
 
-    protected UserInfoLoader getUserInfoLoader() {
-        if (null == mUserInfoLoader)
+    protected UserInfoLoader getUserInfoLoader()
+    {
+        if(null == mUserInfoLoader)
             mUserInfoLoader = new UserInfoLoader(mContext);
         return mUserInfoLoader;
     }
 
 
-    protected UpdateUserLoader getUpdateUserLoader() {
-        if (null == mUpdateUserLoader)
+    protected UpdateUserLoader getUpdateUserLoader()
+    {
+        if(null == mUpdateUserLoader)
             mUpdateUserLoader = new UpdateUserLoader(mContext);
         return mUpdateUserLoader;
     }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE resources [
+    <!ENTITY org_url "https://www.dujiaapp.com">
+    <!ENTITY my_scheme "my">
+    <!ENTITY my_host "www.doubiapp.com">
+    <!ENTITY my_pathPrefix "mall">
+    ]>
+
+<resources>
+    <!--阿里的app_key，用于即时通信-->
+    <string name="ali_app_key">24535412</string>
+    <!--官网-->
+    <string name="org_url">&org_url;</string>
+    <string name="my_scheme">&my_scheme;</string>
+    <string name="my_host">&my_host;</string>
+    <string name="my_pathPrefix">/&my_pathPrefix;</string>
+</resources>

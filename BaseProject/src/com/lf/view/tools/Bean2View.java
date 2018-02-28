@@ -113,7 +113,7 @@ public class Bean2View {
      * @param classType
      * @param layout
      * @return
-     * @see showViews
+     * @see #showViews
      */
     public static ArrayList<View> holdViews(Class<?> classType, ViewGroup layout) {
 

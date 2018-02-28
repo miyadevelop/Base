@@ -12,8 +12,16 @@
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/drawable-v21/design_password_eye.xml"
     },
     {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/release/drawable-v21/view_module_1_click_no_bg.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/res/drawable-v21/view_module_1_click_no_bg.xml"
+    },
+    {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/release/drawable-v21/design_bottom_navigation_item_background.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/release/drawable-v21/view_module_1_click_no_bg_highlight.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/res/drawable-v21/view_module_1_click_no_bg_highlight.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",

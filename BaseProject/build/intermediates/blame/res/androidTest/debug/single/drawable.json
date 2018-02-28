@@ -508,12 +508,12 @@
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/exploded-aar/Shop/BaseResProject/unspecified/res/drawable/umeng_socialize_location_on.png"
     },
     {
-        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/androidTest/debug/drawable/umeng_socialize_refersh.png",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/exploded-aar/Shop/BaseResProject/unspecified/res/drawable/umeng_socialize_refersh.png"
-    },
-    {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/androidTest/debug/drawable/umeng_socialize_wechat_gray.png",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/exploded-aar/Shop/BaseResProject/unspecified/res/drawable/umeng_socialize_wechat_gray.png"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/androidTest/debug/drawable/umeng_socialize_refersh.png",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/exploded-aar/Shop/BaseResProject/unspecified/res/drawable/umeng_socialize_refersh.png"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/androidTest/debug/drawable/umeng_socialize_renren_off.png",

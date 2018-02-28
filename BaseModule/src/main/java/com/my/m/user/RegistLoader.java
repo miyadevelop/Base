@@ -7,7 +7,6 @@ import com.lf.controler.tools.download.DownloadCheckTask;
 import com.lf.controler.tools.download.DownloadTask;
 import com.lf.controler.tools.download.helper.LoadUtils;
 import com.lf.controler.tools.download.helper.NetLoader;
-import com.my.m.R;
 
 import org.json.JSONObject;
 
@@ -81,11 +80,11 @@ public class RegistLoader extends NetLoader {
     public DownloadCheckTask initDownloadTask() {
         DownloadCheckTask task = new DownloadCheckTask();
         task.mIsSimple  = true;
-        task.mUrl = Consts.HOST + "/mall/userRegister.json";
+        task.mUrl = Consts.getHost(getContext()) + "/mall/userRegister.json";
         task.cookiePath = getContext().getFilesDir() + File.separator + "cookie";
         task.cookieStatus = DownloadTask.COOKIE_WRITEABLE;
         LoadUtils.addUniversalParam(getContext(), task);
-        task.addParams("appKey", getContext().getString(R.string.app_key));
+        task.addParams("appKey", Consts.getAppKey(getContext()));
         return task;
     }
 

@@ -40,6 +40,10 @@
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/res/layout/base_layout_wait_dialog.xml"
     },
     {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/debug/layout/base_layout_simple_fenye_3.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/res/layout/base_layout_simple_fenye_3.xml"
+    },
+    {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/debug/layout/notification_action.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout/notification_action.xml"
     },
@@ -192,6 +196,10 @@
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout/notification_template_custom_big.xml"
     },
     {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/debug/layout/base_layout_load.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/res/layout/base_layout_load.xml"
+    },
+    {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout/abc_action_mode_bar.xml"
     },
@@ -216,12 +224,12 @@
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/res/layout/umeng_socialize_base_alert_dialog_button.xml"
     },
     {
-        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout/notification_template_lines_media.xml"
-    },
-    {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/debug/layout/activity_guide.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/res/layout/activity_guide.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout/notification_template_lines_media.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",

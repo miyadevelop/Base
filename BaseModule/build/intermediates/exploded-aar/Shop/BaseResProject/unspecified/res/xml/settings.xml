@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+
+    <!-- 是否使用默认解锁音效 -->
+    <BooleanSetting def_value="true" key="screen_unlock_voice" update_notifice="false"
+		summary_off="固定音效" summary_on="锁屏自带解锁音效" title="设置解锁音效">
+	</BooleanSetting>
+    
+	<BooleanSetting def_value="false" key="screen_switcher" update_notifice="false"
+		summary_off="关闭" summary_on="启用" title="启用锁屏">
+	</BooleanSetting>
+	
+	<ExpandSetting summary="防止双锁屏" key="system_screen_switcher"
+		title="关闭系统锁屏" />
+
+	<BooleanSetting def_value="true" key="music_switcher"
+		summary_off="关闭" summary_on="锁屏界面上滑拉出工具栏" title="音乐与工具栏"></BooleanSetting>
+	
+	<BooleanSetting def_value="false" key="show_status_bar"
+		summary_off="锁屏界面不可以下拉状态栏" summary_on="可以下拉" title="状态栏"></BooleanSetting>
+	
+	<IntSetting	def_value="2" key="sound_switcher_choose" title="解锁音效">
+		<summary>一直关闭        </summary>
+
+		<summary>仅静音时关闭        </summary>
+
+		<summary>始终开启       </summary>
+	</IntSetting>
+	
+	<BooleanSetting def_value="true" key="shake_switcher"
+		summary_off="关闭" summary_on="开启" title="解锁震动">
+	</BooleanSetting>
+
+	<IntSetting def_value="0" key="unlock_anim" title="解锁动画(仅部分手机支持)">
+
+		<summary>逐渐淡出        </summary>
+
+		<summary>向上滑出        </summary>
+
+		<summary>向内收缩        </summary>
+
+		<summary>向外延伸        </summary>
+
+		<summary>旋转风车        </summary>
+	</IntSetting>
+	
+	<IntSetting def_value="4" key="close_screen" title="无操作自动暗屏">
+
+		<summary>10秒        </summary>
+
+		<summary>30秒        </summary>
+		
+		<summary>1分钟        </summary>
+		
+		<summary>2分钟        </summary>
+		
+		<summary>不设置    </summary>
+	</IntSetting>
+	
+	
+	
+	<StringSetting def_value="" key="screen_mood" title="锁屏心情" />
+
+	<!-- 
+	<ExpandSetting summary="防止部分手机按Home直接解锁" key="lock_home_switcher"
+		title="锁定Home键" />
+	 -->
+
+	<BooleanSetting def_value="false" key="lock_voice_switcher"
+		summary_off="关闭" summary_on="启用" title="语音解锁">
+	</BooleanSetting>
+	
+	<StringSetting def_value="" parent_key="lock_voice_switcher"
+		summary="设置解锁语音内容" key="lock_voice_pattern" title="解锁语音" />
+	
+	<BooleanSetting def_value="true" key="lock_pattern_line"
+		summary_off="不显示" summary_on="显示" title="是否显示解锁轨迹">
+	</BooleanSetting>
+	
+	<BooleanSetting def_value="true" key="lock_other_message"
+		summary_off="显示消息内容" summary_on="仅显示消息数" title="加密锁屏上的第三方消息">
+	</BooleanSetting>
+	
+	<BooleanSetting def_value="true" key="weather"
+		summary_off="关闭" summary_on="启用(仅针对有天气部件的锁屏包)" title="显示天气">
+	</BooleanSetting>
+	<StringSetting def_value="" key="weather_city" summary="点击设置城市"
+		title="城市天气" />
+
+	<BooleanSetting def_value="false" key="show_phone_message"
+		summary_off="不显示" summary_on="仅部分锁屏包支持显示" title="未读短信和未接电话"></BooleanSetting>
+	
+	<BooleanSetting def_value="false" key="show_wifi_picture"
+		summary_off="关闭" summary_on="开启" title="仅WIFI下显示高清预览图片"></BooleanSetting>
+	
+	<BooleanSetting def_value="true" key="animation_view_acceleration"
+		summary_off="开启后锁屏更流畅" summary_on="已开启" title="动画加速"></BooleanSetting>
+
+	<BooleanSetting def_value="false" key="lock_screen_random"
+		summary_off="关闭" summary_on="切换" title="随机切换锁屏"></BooleanSetting>
+	
+	<BooleanSetting def_value="true" key="help_function_selector_switcher"
+		summary_off="关闭" summary_on="开启" title="应用消息通知"></BooleanSetting>
+	
+	<ExpandSetting summary="替换桌面壁纸防止锁屏消失" key="set_wallpaper" title="防止锁屏消失"></ExpandSetting>
+	<!--  
+	<ExpandSetting summary="点击查看" key="screen_keep_on" title="防止锁屏消失"></ExpandSetting>
+	-->
+	<ExpandSetting summary="防止被360等软件清理" key="screen_app_match" title="安全软件适配"></ExpandSetting>
+	<ExpandSetting summary="提高锁屏稳定性" key="screen_phonetype_match" title="机型适配"></ExpandSetting>
+	<ExpandSetting summary="点击设置更多功能" key="more_function_settings" title="高级设置"></ExpandSetting>
+	<ExpandSetting summary="防止Home键解锁" key="settings_ignore_home" title="屏蔽Home键"></ExpandSetting>
+	<ExpandSetting summary="防止锁屏不出现" key="screen_keep_live" title="防清理"></ExpandSetting>
+	<ExpandSetting summary="点击了解详细介绍" key="screen_guide" title="使用说明"></ExpandSetting>
+	
+	<ExpandSetting summary="反馈使用产品的感受和建议" key="screen_feedback" title="我来反馈"></ExpandSetting>
+	
+	<ExpandSetting summary="当前版本" key="screen_update" title="检测更新"></ExpandSetting>
+<!-- 	<ExpandSetting summary="天天动听" key="music_plug_in" title="音乐插件"></ExpandSetting> -->
+	
+	<IntSetting	def_value="0" key="music_plug_in" title="音乐插件">
+		<summary>本地播放器       </summary>
+
+		<summary>虾米音乐        </summary>
+	</IntSetting>
+	<!-- 
+	<IntSetting def_value="0" key="lock_voice_second_pawwword" title="备用密码">
+	    <summary>无</summary>
+	    <summary>九宫格</summary>
+	    <summary>数字密码</summary>
+	</IntSetting>
+	 -->
+	
+	<!-- 备用密码 -->
+	<StringSetting
+	    key="lock_voice_second_password"
+	    def_value="lock_second_no">
+	    
+	</StringSetting>
+	<GroupItemSrtting
+	    key="lock_second_no"
+	    group_key="lock_voice_second_password">
+	    
+	</GroupItemSrtting>
+	<GroupItemSrtting
+	    key="lock_second_number"
+	    group_key="lock_voice_second_password">
+	    
+	</GroupItemSrtting>
+	<GroupItemSrtting
+	    key="lock_second_nine"
+	    group_key="lock_voice_second_password">
+	    
+	</GroupItemSrtting>
+	
+	
+	
+	<ExpandSetting summary="打开后可以在锁屏界面显示消息"
+	    key="help_function_selector" title="显示QQ等消息（实验功能）"></ExpandSetting>
+	<!-- 仿Group的书写 -->
+	<StringSetting
+	    def_value="lock_password_no"
+        key="lock_password_group"
+        title="解锁密码"
+	    ></StringSetting>
+	<GroupItemSrtting
+        def_value="true"
+        key="lock_password_no"
+        update_notifice="false"
+        title="无"
+        summary_off=""
+        summary_on=""
+        group_key="lock_password_group"
+        ></GroupItemSrtting>
+	<GroupItemSrtting
+        def_value="false"
+        key="lock_password_voice"
+        update_notifice="false"
+        title="语音密码"
+        summary_off="关闭"
+        summary_on="录入语音"
+        group_key="lock_password_group"
+        ></GroupItemSrtting>
+	<GroupItemSrtting
+        def_value="false"
+        key="lock_password_nine"
+        update_notifice="false"
+        title="九宫格密码"
+        summary_off="关闭"
+        summary_on="开启"
+        group_key="lock_password_group"
+        ></GroupItemSrtting>
+	<GroupItemSrtting
+        def_value="false"
+        key="lock_password_number"
+        update_notifice="false"
+        title="数字密码"
+        summary_off="关闭"
+        summary_on="开启"
+        group_key="lock_password_group"
+        ></GroupItemSrtting>
+</Settings>

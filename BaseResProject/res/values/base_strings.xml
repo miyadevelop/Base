@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 通用的string -->
+
+
+   <!-- 检测更新 -->
+	<string name="check_update_check">正在检测新版本...</string>
+	<string name="check_update_high_version">当前已经是最高版本</string>
+	<string name="check_update_fail">出错了，再试一次吧</string>
+	<string name="check_update_btn_update">更新</string>
+	<string name="check_update_btn_cancel">取消</string>
+	<string name="check_update_title">版本更新</string>
+	
+		<!-- 网络异常 -->
+	<string name="network_connections_disconnection">您的网络没开，请联网开启云端服务。</string>
+    <string name="network_connections_err">网络信号有点差哦，刷新试试吧！</string>
+    <string name="network_connections_settings">设置网络</string>
+    <string name="network_connections_refresh">重新刷新</string>
+    <string name="network_connections_check">检查网络</string>
+    <string name="network_connections_canel">取消</string>
+	
+	<!-- 数据加载 -->
+	<string name="data_load_loading">正在加载...</string>
+	<string name="data_load_fail">加载失败，重新加载！</string>
+	<string name="data_load_refresh">刷新</string>
+	<string name="load_failed">加载失败，点击重新加载</string>
+	<string name="load_over">- 到底了 -</string>
+	<string name="load_no_data">- 居然啥都没 -</string>
+	
+	<!-- 下载 -->
+	<string name="down_status_download">下载</string>
+	<string name="down_status_install">安装</string>
+	<string name="down_status_fail">重新下载</string>
+	<string name="down_status_begin">开始下载...</string>
+	<string name="down_status_downing">正在下载...</string>
+	<string name="down_status_open">打开</string>
+	
+	<!-- 分享中现实的平台的名称 -->
+	<string name="base_share_channel_qq">QQ</string>
+	<string name="base_share_channel_circle">朋友圈</string>
+	<string name="base_share_channel_wechat">微信</string>
+	<string name="base_share_channel_qzone">QQ空间</string>
+	<string name="base_share_result_success">平台分享成功</string>
+	<string name="base_share_result_fail">平台分享失败</string>
+</resources>

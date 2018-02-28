@@ -16,6 +16,7 @@
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
+    <item name="base_tag_id" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
     <item name="tag_bean2view_feilder_holder" type="id"/>
     <style name="AppBaseTheme" parent="AppTheme.Module.NoActionBar"/>

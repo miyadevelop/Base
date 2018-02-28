@@ -1,0 +1,115 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.my.app">
+
+    <application
+        android:name="com.my.ui.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--欢迎界面、开屏-->
+        <activity
+            android:name="com.my.ui.WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/WelcomeTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <!--主页-->
+        <activity
+            android:name="com.my.ui.MainActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <!--账户相关开始-->
+        <activity
+            android:name="com.my.ui.UserLoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="@string/my_host"
+                    android:path="/login.json"
+                    android:scheme="@string/my_scheme" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="com.my.ui.UserLoginActivity2"
+            android:label="@string/title_activity_login2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.my.ui.UserLoginActivity3"
+            android:label="@string/title_activity_login3"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.my.ui.UserAccountActivity"
+            android:label="@string/account_title"
+            android:screenOrientation="portrait"></activity>
+
+        <!--搜索页面-->
+        <activity
+            android:name="com.my.ui.SearchActivity"
+            android:exported="true"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="@string/my_host"
+                    android:path="/mall/comm.json"
+                    android:scheme="@string/my_scheme" />
+            </intent-filter>
+        </activity>
+
+
+        <!-- 友盟统计开始 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="@string/umeng_app_key" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="@string/umeng_app_channel" />
+        <!-- 友盟统计结束 -->
+        <!-- 友盟推送 -->
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="fb151b7edfcca0fa4e67fce93b50b5a5"></meta-data>
+
+
+        <!--qq登录-->
+        <meta-data
+            android:name="qqappid"
+            android:value="@string/share_channel_qq_app_id"></meta-data>
+        <meta-data
+            android:name="qqappkey"
+            android:value="@string/share_channel_qq_app_key"></meta-data>
+        <!--微信登录-->
+        <meta-data
+            android:name="wxappid"
+            android:value="@string/share_channel_wechat_id" />
+        <meta-data
+            android:name="wxsecret"
+            android:value="@string/share_channel_wechat_secret" />
+
+    </application>
+
+</manifest>

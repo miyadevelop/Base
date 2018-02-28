@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 软件色背景下的文字大小 -->
+
+
+    <!-- 1 -->
+    <style name="main_text_1_1">
+        <item name="android:textColor">@color/main_text_1</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="main_text_1_2">
+        <item name="android:textColor">@color/main_text_1</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="main_text_1_3">
+        <item name="android:textColor">@color/main_text_1</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="main_text_1_4">
+        <item name="android:textColor">@color/main_text_1</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <!-- 2 -->
+    <style name="main_text_2_1">
+        <item name="android:textColor">@color/main_text_2</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="main_text_2_2">
+        <item name="android:textColor">@color/main_text_2</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="main_text_2_3">
+        <item name="android:textColor">@color/main_text_2</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="main_text_2_4">
+        <item name="android:textColor">@color/main_text_2</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <!-- 3 -->
+    <style name="main_text_3_1">
+        <item name="android:textColor">@color/main_text_3</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="main_text_3_2">
+        <item name="android:textColor">@color/main_text_3</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="main_text_3_3">
+        <item name="android:textColor">@color/main_text_3</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="main_text_3_4">
+        <item name="android:textColor">@color/main_text_3</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+      <!-- 6 -->
+    <style name="main_text_6_1">
+        <item name="android:textColor">@color/main_text_6</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="main_text_6_2">
+        <item name="android:textColor">@color/main_text_6</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="main_text_6_3">
+        <item name="android:textColor">@color/main_text_6</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="main_text_6_4">
+        <item name="android:textColor">@color/main_text_6</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <!-- 大背景下的文字色 -->
+
+
+    <!-- 1 -->
+    <style name="background_text_1_1">
+        <item name="android:textColor">@color/background_text_1</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="background_text_1_2">
+        <item name="android:textColor">@color/background_text_1</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="background_text_1_3">
+        <item name="android:textColor">@color/background_text_1</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="background_text_1_4">
+        <item name="android:textColor">@color/background_text_1</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <!-- 2 -->
+    <style name="background_text_2_1">
+        <item name="android:textColor">@color/background_text_2</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="background_text_2_2">
+        <item name="android:textColor">@color/background_text_2</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="background_text_2_3">
+        <item name="android:textColor">@color/background_text_2</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="background_text_2_4">
+        <item name="android:textColor">@color/background_text_2</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <!-- 3 -->
+    <style name="background_text_3_1">
+        <item name="android:textColor">@color/background_text_3</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="background_text_3_2">
+        <item name="android:textColor">@color/background_text_3</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="background_text_3_3">
+        <item name="android:textColor">@color/background_text_3</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="background_text_3_4">
+        <item name="android:textColor">@color/main_text_3</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <!-- 4 -->
+    <style name="background_text_4_1">
+        <item name="android:textColor">@color/background_text_4</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="background_text_4_2">
+        <item name="android:textColor">@color/background_text_4</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="background_text_4_3">
+        <item name="android:textColor">@color/background_text_4</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="background_text_4_4">
+        <item name="android:textColor">@color/background_text_4</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <!-- 6 -->
+    <style name="background_text_6_1">
+        <item name="android:textColor">@color/background_text_6</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="background_text_6_2">
+        <item name="android:textColor">@color/background_text_6</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="background_text_6_3">
+        <item name="android:textColor">@color/background_text_6</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="background_text_6_4">
+        <item name="android:textColor">@color/background_text_6</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <!-- 第一层模块背景下的文字色 -->
+
+
+    <!-- 1 -->
+    <style name="module_1_text_1_1">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_1_text_1_2">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_1_text_1_3">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_1_text_1_4">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <!-- 2 -->
+    <style name="module_1_text_2_1">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_1_text_2_2">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_1_text_2_3">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_1_text_2_4">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <!-- 3 -->
+    <style name="module_1_text_3_1">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_1_text_3_2">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_1_text_3_3">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_1_text_3_4">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <!-- 4 -->
+    <style name="module_1_text_4_1">
+        <item name="android:textColor">?android:attr/textColorTertiary</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_1_text_4_2">
+        <item name="android:textColor">?android:attr/textColorTertiary</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_1_text_4_3">
+        <item name="android:textColor">?android:attr/textColorTertiary</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_1_text_4_4">
+        <item name="android:textColor">?android:attr/textColorTertiary</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <!-- 6 -->
+    <style name="module_1_text_6_1">
+        <item name="android:textColor">?android:attr/textColorHighlight</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_1_text_6_2">
+        <item name="android:textColor">?android:attr/textColorHighlight</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_1_text_6_3">
+        <item name="android:textColor">?android:attr/textColorHighlight</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_1_text_6_4">
+        <item name="android:textColor">?android:attr/textColorHighlight</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <!-- 第二层模块背景下的文字色 -->
+
+
+    <!-- 1 -->
+    <style name="module_2_text_1_1">
+        <item name="android:textColor">@color/module_2_text_1</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_2_text_1_2">
+        <item name="android:textColor">@color/module_2_text_1</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_2_text_1_3">
+        <item name="android:textColor">@color/module_2_text_1</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_2_text_1_4">
+        <item name="android:textColor">@color/module_2_text_1</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <!-- 2 -->
+    <style name="module_2_text_2_1">
+        <item name="android:textColor">@color/module_2_text_2</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_2_text_2_2">
+        <item name="android:textColor">@color/module_2_text_2</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_2_text_2_3">
+        <item name="android:textColor">@color/module_2_text_2</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_2_text_2_4">
+        <item name="android:textColor">@color/module_2_text_2</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <!-- 3 -->
+    <style name="module_2_text_3_1">
+        <item name="android:textColor">@color/module_2_text_3</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_2_text_3_2">
+        <item name="android:textColor">@color/module_2_text_3</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_2_text_3_3">
+        <item name="android:textColor">@color/module_2_text_3</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_2_text_3_4">
+        <item name="android:textColor">@color/module_2_text_3</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <!-- 4 -->
+    <style name="module_2_text_4_1">
+        <item name="android:textColor">@color/module_2_text_4</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_2_text_4_2">
+        <item name="android:textColor">@color/module_2_text_4</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_2_text_4_3">
+        <item name="android:textColor">@color/module_2_text_4</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_2_text_4_4">
+        <item name="android:textColor">@color/module_2_text_4</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <!-- 6 -->
+    <style name="module_2_text_6_1">
+        <item name="android:textColor">@color/module_2_text_6</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_2_text_6_2">
+        <item name="android:textColor">@color/module_2_text_6</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_2_text_6_3">
+        <item name="android:textColor">@color/module_2_text_6</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="module_2_text_6_4">
+        <item name="android:textColor">@color/module_2_text_6</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <!-- 警示背景下的文字色 -->
+    <style name="warning_text_1_1">
+        <item name="android:textColor">@color/warning_text_1</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="warning_text_1_2">
+        <item name="android:textColor">@color/warning_text_1</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+ 
+
+</resources>

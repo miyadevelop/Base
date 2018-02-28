@@ -1,10 +1,6 @@
 package com.lf.view.tools.activity.support;
 
-import java.io.File;
-import java.io.IOException;
-
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -12,13 +8,8 @@ import android.util.AttributeSet;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Gallery;
-import android.widget.ImageView;
-import android.widget.ImageView.ScaleType;
-import android.widget.Toast;
 
 /**
  * AssetsGallery：向导图片Gallery
@@ -27,19 +18,16 @@ import android.widget.Toast;
  */
 public class AssetsGallery extends Gallery{
 
-	private Context mContext;
 	private Handler mHandler;
 	
 	public AssetsGallery(Context context, AttributeSet attrs) {
 		super(context, attrs);
-		mContext = context;
 		setOnItemSelectedListener(mOnItemSelectedListener);
 	}
 
 	
 	/**
 	 * init:初始化向导图片和发送翻页信息的Handler
-	 * @param pathName：存放向导图片的assets下的文件夹名
 	 * @param handler
 	 */
 	public void init(Handler handler)
@@ -87,10 +75,5 @@ public class AssetsGallery extends Gallery{
 			return super.onFling(e1, e2, velocityX, velocityY); 
 			}
 	}
-	
-
-
-
-	
 	
 }

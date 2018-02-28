@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<help>
+    <help_item value="group_function">
+        <title>如何屏蔽Home键？</title>
+        <message>http://www.lovephone.com.cn/ApkUpload/GetHtmlPath.Html?version=help-home-0429</message>
+    </help_item>
+    
+    <help_item value="group_function">
+        <title>如何设置开机启动？</title>
+        <message>http://www.lovephone.com.cn/ApkUpload/GetHtmlPath.Html?version=help-powered-up</message>
+    </help_item>
+    
+    <help_item value="group_linghua">
+        <title>如何做任务赚取收益？</title>
+        <message>http://www.lovephone.com.cn/ApkUpload/GetHtmlPath.Html?version=makemoney_1.0</message>
+    </help_item>
+</help>

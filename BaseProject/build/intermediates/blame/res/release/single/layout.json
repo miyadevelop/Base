@@ -204,6 +204,10 @@
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/res/layout/umeng_socialize_base_alert_dialog.xml"
     },
     {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/release/layout/base_layout_simple_fenye_3.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/res/layout/base_layout_simple_fenye_3.xml"
+    },
+    {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/release/layout/base_layout_update_dialog.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/res/layout/base_layout_update_dialog.xml"
     },
@@ -298,6 +302,10 @@
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/release/layout/base_layout_wait_dialog.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/res/layout/base_layout_wait_dialog.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/release/layout/base_layout_load.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/res/layout/base_layout_load.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/release/layout/abc_action_mode_bar.xml",

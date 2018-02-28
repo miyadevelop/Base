@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/abc_action_bar_default_height_material"
+    android:theme="@style/AppTheme"
+    android:background="?attr/colorPrimary">
+
+
+    <!-- 默认左边返回按钮 -->
+
+    <ImageButton
+        android:id="@+id/titlebar_btn_left"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:tint="?attr/colorControlHighlight"
+        android:background="@drawable/view_module_1_click_no_bg"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_arrow_back_black_24dp" />
+
+
+    <TextView
+        android:id="@+id/titilebar_text_title"
+        style="@style/module_1_text_1_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/titlebar_btn_left" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/windowBackground"></View>
+
+
+</RelativeLayout>

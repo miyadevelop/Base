@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--搜索界面-->
+    <string name="search_search_history">清除搜索记录</string>
+    <string name="search_search_hint">名称或货号...</string>
+    <string name="search_history">搜索历史</string>
+    <string name="search_hot">热门搜索</string>
+
+    <!--欢迎界面-->
+    <string name="welcome_skip">跳&#160;过</string>
+
+    <!--主页-->
+    <string name="main_quit">再按返回键退出</string>
+    <string name="main_tab_1">主页</string>
+    <string name="main_tab_2">示例</string>
+    <string name="main_tab_3">我的</string>
+
+
+    <!--聊天界面-->
+    <string name="chat_send_msg">发送链接</string>
+    <string name="chat_conversation_title">消息</string>
+
+    <!--账户相关开始-->
+    <!--登录界面-->
+    <string name="title_activity_login">登录</string>
+    <string name="prompt_phone">请输入手机号</string>
+    <string name="prompt_ver">请输入验证码</string>
+    <string name="action_sign_in">登录或注册</string>
+    <string name="error_invalid_phone">手机号格式错误</string>
+    <string name="get_ver">获取验证码</string>
+    <string name="error_invalid_ver">验证码格式错误</string>
+    <string name="error_incorrect_ver">验证码错误</string>
+    <string name="error_field_required">请输入手机号</string>
+    <string name="login_verfication_time">S后可重发</string>
+    <string name="login_reget_verfication">重获验证码</string>
+    <string name="login_get_verfication_failed">获取验证码失败</string>
+    <string name="login_get_verfication_success">验证码已发送</string>
+    <string name="login_platform_login">——&#160;快速登录&#160;——</string>
+    <string name="login_platform_auth_cancel">取消授权登录</string>
+    <string name="login_platform_auth_failed">授权登录失败</string>
+    <!--完善信息界面-->
+    <string name="title_activity_login2">完善信息</string>
+    <string name="login2_name_required">请输入昵称</string>
+    <string name="login2_gender_required">请选择性别</string>
+    <string name="login2_head_required">传个头像呗</string>
+    <string name="login2_name_hint">取个昵称吧...</string>
+    <string name="login2_ok">好了</string>
+    <string name="login2_sex_boy">汉子</string>
+    <string name="login2_sex_girl">妹子</string>
+    <!--绑定手机号界面-->
+    <string name="login_bind_phone">绑定手机号</string>
+    <string name="title_activity_login3">绑定手机号</string>
+    <string name="login_phone_binded_title">绑定失败</string>
+    <string name="login_phone_binded_message">该手机号已经被绑定过，不能重复绑定，是否要登录该手机号？</string>
+    <string name="login_phone_binded_ok">登录</string>
+    <string name="login_phone_binded_cancel">重填手机号</string>
+    <!--账户界面-->
+    <string name="account_title">我的账户</string>
+    <string name="account_name">昵称</string>
+    <string name="account_gender">性别</string>
+    <string name="account_phone">手机号</string>
+    <string name="account_wechat">微信</string>
+    <string name="account_qq">QQ</string>
+    <string name="account_binded">已绑定</string>
+    <string name="account_unbinded">未绑定</string>
+    <string name="account_head">头像</string>
+    <string name="account_logout">退出登录</string>
+    <string name="account_double_click">再点一次退出登录</string>
+    <string name="account_unbind_qq">再点一次解绑QQ</string>
+    <string name="account_unbind_wechat">再点一次解绑微信</string>
+    <!--账户相关结束-->
+
+    <!--我的界面-->
+    <string name="me_share_title">分享标题</string>
+    <string name="me_share_content">分享文字</string>
+    <string name="me_friend">邀请好友</string>
+    <string name="me_feedback">问题反馈</string>
+    <string name="me_update">检测更新</string>
+    <string name="me_unlogin">点击登录</string>
+</resources>

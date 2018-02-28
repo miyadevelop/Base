@@ -3,12 +3,10 @@ package com.my.m.user;
 import android.content.Context;
 
 import com.google.gson.Gson;
-import com.lf.app.App;
 import com.lf.controler.tools.download.DownloadCheckTask;
 import com.lf.controler.tools.download.DownloadTask;
 import com.lf.controler.tools.download.helper.LoadUtils;
 import com.lf.controler.tools.download.helper.NetLoader;
-import com.my.m.R;
 
 import org.json.JSONObject;
 
@@ -94,11 +92,11 @@ public class BindLoader extends NetLoader {
     public DownloadCheckTask initDownloadTask() {
         DownloadCheckTask task = new DownloadCheckTask();
         task.mIsSimple  = true;
-        task.mUrl = Consts.HOST + "/mall/userBind.json";
+        task.mUrl = Consts.getHost(getContext()) + "/mall/userBind.json";
         task.cookiePath = getContext().getFilesDir() + File.separator + "cookie";
         task.cookieStatus = DownloadTask.COOKIE_READABLE;
         LoadUtils.addUniversalParam(getContext(), task);
-        task.addParams("appKey", App.mContext.getString(R.string.app_key));
+        task.addParams("appKey", Consts.getAppKey(getContext()));
         return task;
     }
 

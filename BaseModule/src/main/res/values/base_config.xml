@@ -1,0 +1,7 @@
+<resources>
+    <!--阿里的app_key，用于即时通信-->
+    <string name="ali_app_key">24535412</string>
+
+    <!--支付使用插件支付-->
+    <string name="pay_function_switch_payplugin">1</string><!--0,使用插件支付  1，直接微信支付  -->
+</resources>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  
+    <!-- 按钮风格 -->
+
+
+    <!-- 按钮1_1 -->
+    <style name="button_1_1">
+        <item name="android:background">@drawable/button_1_bg</item>
+        <item name="android:textColor">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- module1上的高亮 按钮1_2 -->
+    <style name="button_1_2">
+        <item name="android:background">@drawable/button_1_bg</item>
+        <item name="android:textColor">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- module1上的非高亮 按钮2_1 -->
+    <style name="button_2_1">
+        <item name="android:background">@drawable/button_2_bg</item>
+        <item name="android:textColor">?attr/colorButtonNormal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:stateListAnimator">@null</item><!--去除按钮的阴影-->
+    </style>
+    <!-- 按钮2_2 -->
+    <style name="button_2_2">
+        <item name="android:background">@drawable/button_2_bg</item>
+        <item name="android:textColor">?attr/colorButtonNormal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:stateListAnimator">@null</item><!--去除按钮的阴影-->
+    </style>
+    <!-- 按钮3_1 -->
+    <style name="button_3_1">
+        <item name="android:background">@drawable/button_3_bg</item>
+        <item name="android:textColor">@color/button_3_text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <!-- 按钮3_2 -->
+    <style name="button_3_2">
+        <item name="android:background">@drawable/button_3_bg</item>
+        <item name="android:textColor">@color/button_3_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+      <!-- 按钮4_1 -->
+    <style name="button_4_1">
+        <item name="android:background">@drawable/button_4_bg</item>
+        <item name="android:textColor">@color/button_3_text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <!-- 按钮4_2 -->
+    <style name="button_4_2">
+        <item name="android:background">@drawable/button_4_bg</item>
+        <item name="android:textColor">@color/button_4_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <!-- 按钮warning_1 -->
+    <style name="button_warning_1">
+        <item name="android:background">@drawable/button_warning_bg</item>
+        <item name="android:textColor">@color/button_warning_text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <!-- 按钮warning_2 -->
+    <style name="button_warning_2">
+        <item name="android:background">@drawable/button_warning_bg</item>
+        <item name="android:textColor">@color/button_warning_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+     <!--&lt;!&ndash; 返回按钮 &ndash;&gt;-->
+    <!--<style name="button_back">-->
+        <!--<item name="android:src">@drawable/button_back_normal</item>-->
+        <!--<item name="android:background">@drawable/button_click_bg</item>-->
+    <!--</style>-->
+    <!--<style name="button_back_1">-->
+        <!--<item name="android:src">@drawable/button_back_normal_1</item>-->
+        <!--<item name="android:background">@drawable/button_click_bg</item>-->
+    <!--</style>-->
+    <!--&lt;!&ndash; 关闭按钮 &ndash;&gt;-->
+    <!--<style name="button_close">-->
+        <!--<item name="android:src">@drawable/button_close_normal</item>-->
+        <!--<item name="android:background">@drawable/button_click_bg</item>-->
+    <!--</style>-->
+    <!--<style name="button_close_1">-->
+        <!--<item name="android:src">@drawable/button_close_normal_1</item>-->
+        <!--<item name="android:background">@drawable/button_click_bg</item>-->
+    <!--</style>-->
+    <!--&lt;!&ndash; 设置按钮 &ndash;&gt;-->
+    <!--<style name="button_setting">-->
+        <!--<item name="android:src">@drawable/button_setting_normal</item>-->
+        <!--<item name="android:background">@drawable/button_click_bg</item>-->
+    <!--</style>-->
+    
+
+</resources>

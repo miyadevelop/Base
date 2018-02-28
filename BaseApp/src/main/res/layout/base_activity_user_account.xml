@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- 头像 -->
+
+    <RelativeLayout
+        android:id="@+id/account_layout_head"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="@dimen/line_height"
+        android:background="@drawable/view_module_1_click"
+        android:onClick="goToUpdate">
+
+        <TextView
+            style="@style/module_1_text_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_padding_3"
+            android:text="@string/account_head" />
+
+        <com.lf.view.tools.imagecache.CircleImageView
+            android:id="@+id/icon_url"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/account_image_head_goto"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/account_image_head_goto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:tint="@color/module_1_text_3" />
+    </RelativeLayout>
+
+
+    <!-- 修改资料 -->
+
+    <RelativeLayout
+        android:id="@+id/account_layout_name"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/account_layout_head"
+        android:layout_marginTop="@dimen/line_height"
+        android:background="@drawable/view_module_1_click"
+        android:onClick="goToUpdate">
+
+        <TextView
+            style="@style/module_1_text_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_padding_3"
+            android:text="@string/account_name" />
+
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/module_1_text_2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/account_image_name_goto" />
+
+        <ImageView
+            android:id="@+id/account_image_name_goto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:tint="@color/module_1_text_3" />
+    </RelativeLayout>
+
+
+    <!-- 性别 -->
+
+    <RelativeLayout
+        android:id="@+id/account_layout_gender"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/account_layout_name"
+        android:layout_marginTop="@dimen/line_height"
+        android:background="@drawable/view_module_1_click"
+        android:onClick="goToUpdate">
+
+        <TextView
+            style="@style/module_1_text_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_padding_3"
+            android:text="@string/account_gender" />
+
+
+        <view
+            android:id="@+id/gender"
+            style="@style/module_1_text_2_1"
+            class="com.my.ui.UserAccountActivity$GenderView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/account_image_gender_goto" />
+
+        <ImageView
+            android:id="@+id/account_image_gender_goto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:tint="@color/module_1_text_3" />
+    </RelativeLayout>
+
+
+    <!-- 手机号 -->
+
+    <RelativeLayout
+        android:id="@+id/account_layout_phone"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/account_layout_gender"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/view_module_1_click">
+
+        <ImageView
+            android:id="@+id/account_image_phone"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_padding_3"
+            android:src="@drawable/base_image_account_phone"
+            android:tint="?attr/colorControlHighlight" />
+
+        <TextView
+            style="@style/module_1_text_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_padding_2"
+            android:layout_toRightOf="@id/account_image_phone"
+            android:text="@string/account_phone" />
+
+
+        <TextView
+            android:id="@+id/account_text_phone"
+            style="@style/module_1_text_2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/account_image_phone_goto" />
+
+        <ImageView
+            android:id="@+id/account_image_phone_goto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:tint="@color/module_1_text_3"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+
+    <!-- 微信 -->
+
+    <RelativeLayout
+        android:id="@+id/account_layout_wechat"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/account_layout_phone"
+        android:layout_marginTop="@dimen/line_height"
+        android:background="@drawable/view_module_1_click"
+        android:onClick="bindWechat">
+
+        <ImageView
+            android:id="@+id/account_image_wechat"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_padding_3"
+            android:src="@drawable/base_image_account_wechat"
+            android:tint="?attr/colorControlHighlight" />
+
+        <TextView
+            style="@style/module_1_text_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_padding_2"
+            android:layout_toRightOf="@id/account_image_wechat"
+            android:text="@string/account_wechat" />
+
+
+        <TextView
+            android:id="@+id/account_text_wechat"
+            style="@style/module_1_text_2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/account_image_wechat_goto" />
+
+        <ImageView
+            android:id="@+id/account_image_wechat_goto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:tint="@color/module_1_text_3" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/account_layout_wechat_1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/account_layout_phone"
+        android:layout_marginTop="@dimen/line_height"
+        android:background="@color/warning"
+        android:onClick="bindWechat"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/account_image_wechat_1"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_padding_3"
+            android:src="@drawable/base_image_account_wechat"
+            android:tint="@color/warning_text_1" />
+
+        <TextView
+            style="@style/module_1_text_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_padding_2"
+            android:layout_toRightOf="@id/account_image_wechat_1"
+            android:text="@string/account_wechat"
+            android:textColor="@color/warning_text_1" />
+
+
+        <TextView
+            android:id="@+id/account_text_wechat_1"
+            style="@style/module_1_text_2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/account_image_wechat_goto_1"
+            android:text="@string/account_unbind_wechat"
+            android:textColor="@color/warning_text_1" />
+
+        <ImageView
+            android:id="@+id/account_image_wechat_goto_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:tint="@color/warning_text_1" />
+    </RelativeLayout>
+
+
+    <!-- QQ -->
+
+    <RelativeLayout
+        android:id="@+id/account_layout_qq"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/account_layout_wechat"
+        android:layout_marginTop="@dimen/line_height"
+        android:background="@drawable/view_module_1_click"
+        android:onClick="bindQQ">
+
+        <ImageView
+            android:id="@+id/account_image_qq"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_padding_3"
+            android:src="@drawable/base_image_account_qq"
+            android:tint="?attr/colorControlHighlight" />
+
+        <TextView
+            style="@style/module_1_text_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_padding_2"
+            android:layout_toRightOf="@id/account_image_qq"
+            android:text="@string/account_qq" />
+
+
+        <TextView
+            android:id="@+id/account_text_qq"
+            style="@style/module_1_text_2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/account_image_qq_goto" />
+
+        <ImageView
+            android:id="@+id/account_image_qq_goto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:tint="@color/module_1_text_3" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/account_layout_qq_1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/account_layout_wechat"
+        android:layout_marginTop="@dimen/line_height"
+        android:background="@color/warning"
+        android:onClick="bindQQ"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/account_image_qq_1"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_padding_3"
+            android:src="@drawable/base_image_account_qq"
+            android:tint="@color/warning_text_1" />
+
+        <TextView
+            style="@style/module_1_text_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_padding_2"
+            android:layout_toRightOf="@id/account_image_qq_1"
+            android:text="@string/account_qq"
+            android:textColor="@color/warning_text_1" />
+
+
+        <TextView
+            android:id="@+id/account_text_qq_1"
+            style="@style/module_1_text_2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/account_image_qq_goto_1"
+            android:text="@string/account_unbind_qq"
+            android:textColor="@color/warning_text_1" />
+
+        <ImageView
+            android:id="@+id/account_image_qq_goto_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:tint="@color/warning_text_1" />
+    </RelativeLayout>
+
+
+    <!-- 退出登录 -->
+
+    <RelativeLayout
+        android:id="@+id/account_layout_logout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/account_layout_qq"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/view_module_1_click"
+        android:onClick="logout">
+
+        <TextView
+            android:id="@+id/account_text_logout"
+            style="@style/module_1_text_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_padding_3"
+            android:text="@string/account_logout" />
+
+        <ImageView
+            android:id="@+id/account_image_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:tint="@color/module_1_text_3" />
+
+        <ImageView
+            android:id="@+id/account_image_logout_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:tint="@color/warning_text_1"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

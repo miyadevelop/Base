@@ -18,7 +18,6 @@ import android.util.AttributeSet;
 import com.lf.controler.tools.BitmapUtils;
 import com.lf.tools.log.MyLog;
 import com.lf.view.tools.UnitConvert;
-import com.lf.view.tools.imagecache.MyImageView;
 
 /**
  * 圆角图片

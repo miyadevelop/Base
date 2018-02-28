@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 以下颜色值按所处界面文字重要程度进行排列   次序"重->次"1 2 3 4... -->
+
+
+    <!-- 背景色 -->
+
+
+    <!-- 软件色 -->
+    <color name="main">#0e0807</color>
+    <!-- 大背景色 -->
+    <color name="background">#f5f5f5</color>
+    <!-- 第一层模块背景色 -->
+    <color name="module_1">#ffffff</color>
+    <!-- 第二层模块背景色 -->
+    <color name="module_2">#f9f9f9</color>
+    <!-- 警示背景色 -->
+    <color name="warning">#ed4e17</color>
+
+    <!-- 文字 -->
+
+
+    <!-- 软件色背景下的文字色 -->
+    <color name="main_text_1">#ffffff</color>
+    <color name="main_text_2">#b2ffffff</color>
+    <color name="main_text_3">#7fffffff</color>
+    <color name="main_text_6">#ed4e17</color>
+
+    <!-- 大背景下的文字色 -->
+    <color name="background_text_1">#333333</color>
+    <color name="background_text_2">#666666</color>
+    <color name="background_text_3">#999999</color>
+    <color name="background_text_4">#aaaaaa</color>
+    <color name="background_text_5">#cccccc</color>
+    <color name="background_text_6">#ed4e17</color>
+
+    <!-- 第一层模块背景下的文字色 -->
+    <color name="module_1_text_1">#333333</color>
+    <color name="module_1_text_2">#666666</color>
+    <color name="module_1_text_3">#999999</color>
+    <color name="module_1_text_4">#aaaaaa</color>
+    <color name="module_1_text_5">#cccccc</color>
+    <color name="module_1_text_6">#ed4e17</color>
+
+    <!-- 第二层模块背景下的文字色 -->
+    <color name="module_2_text_1">#333333</color>
+    <color name="module_2_text_2">#666666</color>
+    <color name="module_2_text_3">#999999</color>
+    <color name="module_2_text_4">#aaaaaa</color>
+    <color name="module_2_text_5">#cccccc</color>
+    <color name="module_2_text_6">#ed4e17</color>
+
+    <!-- 警示背景下的文字色 -->
+    <color name="warning_text_1">#ffffff</color>
+
+    <!-- 分割线 -->
+
+
+    <!-- 大背景下的分割线 -->
+    <color name="background_line">#dcdcdc</color>
+    <!-- 第一层模块背景下的分割线 -->
+    <color name="module_1_line">#dcdcdc</color>
+    <!-- 第二层模块背景下的分割线 -->
+    <color name="module_2_line">#dcdcdc</color>
+
+    <!-- 按钮文字色 -->
+
+
+    <!-- 1 黑色-->
+    <color name="button_1_background_normal">#0e0807</color>
+    <color name="button_1_text_normal">#ffffff</color>
+    <color name="button_1_background_press">#E50e0807</color>
+    <color name="button_1_text_press">#ffffff</color>
+    <color name="button_1_background_disable">#dcdcdc</color>
+    <color name="button_1_text_disable">#ffffff</color>
+    <color name="button_1_outline">#000e0807</color>
+
+    <!-- 2 白色底黑色描边-->
+    <color name="button_2_background_normal">#ffffff</color>
+    <color name="button_2_text_normal">#333333</color>
+    <color name="button_2_background_press">#00ffffff</color>
+    <color name="button_2_text_press">#333333</color>
+    <color name="button_2_background_disable">#dcdcdc</color>
+    <color name="button_2_text_disable">#ffffff</color>
+    <color name="button_2_outline">#999999</color>
+    <!-- 3 -->
+    <color name="button_3_background_normal">#d15728</color>
+    <color name="button_3_text_normal">#ffbf25</color>
+    <color name="button_3_background_press">#E5d15728</color>
+    <color name="button_3_text_press">#ffbf25</color>
+    <color name="button_3_background_disable">#dcdcdc</color>
+    <color name="button_3_text_disable">#dcdcdc</color>
+    <color name="button_3_outline">#d15728</color>
+    <!-- 4  软件色描边按钮 -->
+    <!--     <color name="button_4_background_normal">#ff635c</color> -->
+    <!--     <color name="button_4_text_normal">#ffffff</color> -->
+    <!--     <color name="button_4_background_press">#b2ff635c</color> -->
+    <!--     <color name="button_4_text_press">#ffffff</color> -->
+    <!--     <color name="button_4_background_disable">#dcdcdc</color> -->
+    <!--     <color name="button_4_text_disable">#ff635c</color> -->
+    <!--     <color name="button_4_outline">#ff635c</color> -->
+    <color name="button_4_background_normal">#000e0807</color>
+    <color name="button_4_text_normal">#0e0807</color>
+    <color name="button_4_background_press">#CC0e0807</color>
+    <color name="button_4_text_press">#0e0807</color>
+    <color name="button_4_background_disable">#dcdcdc</color>
+    <color name="button_4_text_disable">#FFFFFF</color>
+    <color name="button_4_outline">#ed4e17</color>
+
+    <!-- warning -->
+    <color name="button_warning_background_normal">#00ed4e17</color>
+    <color name="button_warning_text_normal">#ed4e17</color>
+    <color name="button_warning_background_press">#00ed4e17</color>
+    <color name="button_warning_text_press">#ed4e17</color>
+    <color name="button_warning_background_disable">#d6d6d6</color>
+    <color name="button_warning_text_disable">#ffffff</color>
+    <color name="button_warning_outline">#ed4e17</color>
+    <!-- click -->
+    <color name="button_click_background_normal">#00000000</color>
+    <color name="button_click_background_press">#11000000</color>
+    <color name="button_click_background_disable">#888888</color>
+    <color name="button_click_outline">#00000000</color>
+
+    <!-- image button -->
+    <!-- 软件色上按钮的高亮颜色 -->
+    <color name="image_button_1">#FFFFFF</color>
+    <!-- 软件色上按钮的非高亮颜色 -->
+    <color name="image_button_2">#ffffff</color>
+    <!-- 非软件色上按钮高亮颜色 -->
+    <color name="image_button_3">#ed4e17</color>
+    <!-- 非软件色上按钮非高亮颜色 -->
+    <color name="image_button_4">#333333</color>
+
+    <!-- 模块按下色 -->
+
+
+    <!-- 第一层模块背景按下颜色 -->
+    <color name="module_1_press">#e3e3e3</color>
+    <!-- 第二层模块背景按下颜色 -->
+    <color name="module_2_press">#e7e7e7</color>
+
+</resources>

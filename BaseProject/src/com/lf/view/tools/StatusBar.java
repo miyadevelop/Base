@@ -7,8 +7,6 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.lf.view.tools.ScreenParameter;
-
 
 /**
  * 在沉浸模式的时候，放在界面最顶部的view

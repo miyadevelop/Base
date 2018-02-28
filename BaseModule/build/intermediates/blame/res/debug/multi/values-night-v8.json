@@ -7,8 +7,176 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
+                    "endLine": 3,
+                    "endColumn": 12,
+                    "endOffset": 130
+                },
+                "from": {
+                    "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseProject/unspecified/res/values-night-v8/values-night-v8.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 3,
+                        "endColumn": 12,
+                        "endOffset": 130
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 135,
+                    "endLine": 6,
+                    "endColumn": 12,
+                    "endOffset": 290
+                },
+                "from": {
+                    "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseProject/unspecified/res/values-night-v8/values-night-v8.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 135,
+                        "endLine": 6,
+                        "endColumn": 12,
+                        "endOffset": 290
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 295,
+                    "endLine": 23,
+                    "endColumn": 12,
+                    "endOffset": 1653
+                },
+                "from": {
+                    "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseProject/unspecified/res/values-night-v8/values-night-v8.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 295,
+                        "endLine": 23,
+                        "endColumn": 12,
+                        "endOffset": 1653
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1658,
+                    "endLine": 27,
+                    "endColumn": 12,
+                    "endOffset": 1831
+                },
+                "from": {
+                    "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseProject/unspecified/res/values-night-v8/values-night-v8.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1658,
+                        "endLine": 27,
+                        "endColumn": 12,
+                        "endOffset": 1831
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1836,
+                    "endLine": 44,
+                    "endColumn": 12,
+                    "endOffset": 3202
+                },
+                "from": {
+                    "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseProject/unspecified/res/values-night-v8/values-night-v8.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1836,
+                        "endLine": 44,
+                        "endColumn": 12,
+                        "endOffset": 3202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 3207,
+                    "endLine": 48,
+                    "endColumn": 12,
+                    "endOffset": 3384
+                },
+                "from": {
+                    "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseProject/unspecified/res/values-night-v8/values-night-v8.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 3207,
+                        "endLine": 48,
+                        "endColumn": 12,
+                        "endOffset": 3384
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3389,
+                    "endLine": 65,
+                    "endColumn": 12,
+                    "endOffset": 4669
+                },
+                "from": {
+                    "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseProject/unspecified/res/values-night-v8/values-night-v8.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 3389,
+                        "endLine": 65,
+                        "endColumn": 12,
+                        "endOffset": 4669
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 4674,
+                    "endLine": 68,
+                    "endColumn": 12,
+                    "endOffset": 4844
+                },
+                "from": {
+                    "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/Shop/BaseProject/unspecified/res/values-night-v8/values-night-v8.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 4674,
+                        "endLine": 68,
+                        "endColumn": 12,
+                        "endOffset": 4844
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 4849,
                     "endColumn": 69,
-                    "endOffset": 120
+                    "endOffset": 4914
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-night-v8/values-night-v8.xml",
@@ -23,11 +191,11 @@
             },
             {
                 "to": {
-                    "startLine": 3,
+                    "startLine": 70,
                     "startColumn": 4,
-                    "startOffset": 125,
+                    "startOffset": 4919,
                     "endColumn": 83,
-                    "endOffset": 204
+                    "endOffset": 4998
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-night-v8/values-night-v8.xml",
@@ -42,11 +210,11 @@
             },
             {
                 "to": {
-                    "startLine": 4,
+                    "startLine": 71,
                     "startColumn": 4,
-                    "startOffset": 209,
+                    "startOffset": 5003,
                     "endColumn": 83,
-                    "endOffset": 288
+                    "endOffset": 5082
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-night-v8/values-night-v8.xml",
@@ -61,11 +229,11 @@
             },
             {
                 "to": {
-                    "startLine": 5,
+                    "startLine": 72,
                     "startColumn": 4,
-                    "startOffset": 293,
+                    "startOffset": 5087,
                     "endColumn": 95,
-                    "endOffset": 384
+                    "endOffset": 5178
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-night-v8/values-night-v8.xml",
@@ -80,11 +248,11 @@
             },
             {
                 "to": {
-                    "startLine": 6,
+                    "startLine": 73,
                     "startColumn": 4,
-                    "startOffset": 389,
+                    "startOffset": 5183,
                     "endColumn": 101,
-                    "endOffset": 486
+                    "endOffset": 5280
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-night-v8/values-night-v8.xml",
@@ -99,11 +267,11 @@
             },
             {
                 "to": {
-                    "startLine": 7,
+                    "startLine": 74,
                     "startColumn": 4,
-                    "startOffset": 491,
+                    "startOffset": 5285,
                     "endColumn": 101,
-                    "endOffset": 588
+                    "endOffset": 5382
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-night-v8/values-night-v8.xml",
@@ -118,11 +286,11 @@
             },
             {
                 "to": {
-                    "startLine": 8,
+                    "startLine": 75,
                     "startColumn": 4,
-                    "startOffset": 593,
+                    "startOffset": 5387,
                     "endColumn": 93,
-                    "endOffset": 682
+                    "endOffset": 5476
                 },
                 "from": {
                     "file": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseModule/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-night-v8/values-night-v8.xml",

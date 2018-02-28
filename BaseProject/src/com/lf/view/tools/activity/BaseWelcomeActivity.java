@@ -139,7 +139,6 @@ public class BaseWelcomeActivity extends AppCompatActivity{
 	
 	/**
 	 * 设置要加载的项的名称(可自己定义.只要确保与loadProgressDone(progressName)的progressName一致即可)
-	 * @param count
 	 */
 	public void addLoadProgressName(String progessName)
 	{

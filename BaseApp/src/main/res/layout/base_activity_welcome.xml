@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.lf.entry.helper.Splash
+        url="31"
+        auto_load="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+
+    <TextView
+        android:id="@+id/welcome_text_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="40dp"
+        android:background="#88000000"
+        android:onClick="skip"
+        android:paddingBottom="3dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="3dp"
+        android:text="@string/welcome_skip"
+        android:textColor="#efefef"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

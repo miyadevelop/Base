@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="@dimen/activity_vertical_margin">
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/login_text_platform_login"
+        android:layout_marginBottom="8dp">
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/phone_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="?android:attr/textColorSecondary">
+
+                <!--手机号输入框-->
+                <AutoCompleteTextView
+                    android:id="@+id/phone_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/prompt_phone"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColorHint="?android:attr/textColorSecondary" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/ver_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/get_ver_button"
+                    android:textColorHint="?android:attr/textColorSecondary">
+
+                    <!--验证码-->
+                    <EditText
+                        android:id="@+id/ver_edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/prompt_ver"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColorHint="?android:attr/textColorSecondary" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <!--获取验证码按钮-->
+                <com.dd.CircularProgressButton
+                    android:id="@+id/get_ver_button"
+                    style="@style/button_1_1"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_alignBottom="@+id/ver_layout"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="16dp"
+                    android:maxLines="1"
+                    android:onClick="getVer"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/get_ver"
+                    app:cpb_cornerRadius="@dimen/button_corner_radius"
+                    app:cpb_selectorComplete="?attr/colorControlHighlight"
+                    app:cpb_selectorError="?attr/colorControlHighlight"
+                    app:cpb_selectorIdle="?attr/colorControlHighlight"
+                    app:cpb_textComplete="@string/login_get_verfication_success"
+                    app:cpb_textError="@string/login_reget_verfication"
+                    app:cpb_textIdle="@string/get_ver" />
+
+            </RelativeLayout>
+
+            <com.dd.CircularProgressButton
+                android:id="@+id/sign_in_button"
+                style="@style/button_1_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/button_2_bg"
+                android:enabled="true"
+                android:onClick="attemptLogin"
+                android:text="@string/action_sign_in"
+                app:cpb_cornerRadius="@dimen/button_corner_radius"
+                app:cpb_selectorIdle="?attr/colorControlHighlight"
+                app:cpb_textIdle="@string/action_sign_in" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/login_text_platform_login"
+        style="@style/module_1_text_3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login_layout_platform_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/login_platform_login" />
+
+    <LinearLayout
+        android:id="@+id/login_layout_platform_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:onClick="loginWechat"
+            android:scaleType="centerInside"
+            android:src="@drawable/base_image_login_wechat" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="50dp"
+            android:onClick="loginQQ"
+            android:scaleType="centerInside"
+            android:src="@drawable/base_image_login_qq" />
+    </LinearLayout>
+</RelativeLayout>

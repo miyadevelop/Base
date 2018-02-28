@@ -12,12 +12,12 @@
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/bundles/debug/res/layout/base_layout_tab.xml"
     },
     {
-        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/androidTest/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout/abc_action_mode_bar.xml"
-    },
-    {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/androidTest/debug/layout/notification_action_tombstone.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/androidTest/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout/abc_action_mode_bar.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/androidTest/debug/layout/base_activity_main.xml",
@@ -82,6 +82,10 @@
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/androidTest/debug/layout/base_layout_share.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/bundles/debug/res/layout/base_layout_share.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/androidTest/debug/layout/base_layout_load.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/bundles/debug/res/layout/base_layout_load.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/androidTest/debug/layout/abc_action_mode_close_item_material.xml",
@@ -202,6 +206,10 @@
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/androidTest/debug/layout/abc_list_menu_item_radio.xml",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/androidTest/debug/layout/base_layout_simple_fenye_3.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/bundles/debug/res/layout/base_layout_simple_fenye_3.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseProject/build/intermediates/res/merged/androidTest/debug/layout/base_layout_dialog.xml",

@@ -8,12 +8,12 @@
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/bundles/debug/res/drawable/umeng_socialize_shareboard_item_background.xml"
     },
     {
-        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/drawable/button_2_bg.xml",
-        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/bundles/debug/res/drawable/button_2_bg.xml"
-    },
-    {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/drawable/umeng_socialize_title_back_bt_normal.png",
         "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/bundles/debug/res/drawable/umeng_socialize_title_back_bt_normal.png"
+    },
+    {
+        "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/drawable/button_2_bg.xml",
+        "source": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/bundles/debug/res/drawable/button_2_bg.xml"
     },
     {
         "merged": "/Users/wangwei/Documents/Project/android_studio/Shop/BaseResProject/build/intermediates/res/merged/androidTest/debug/drawable/umeng_socialize_twitter.png",

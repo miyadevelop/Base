@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--这里的点击效果是圆形的，不受控件边缘限制，view_module_1_click点击效果是方的，受控件边缘限制-->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?attr/colorControlHighlight">
+
+</ripple>

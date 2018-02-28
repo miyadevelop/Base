@@ -32,6 +32,7 @@
                 <item name="android:colorControlHighlight">@color/main</item><!--返回按钮点击后，波纹效果的颜色-->
                 <item name="android:colorControlNormal">@color/main</item><!--radiobutton等控件、返回按钮颜色-->
                 <item name="android:colorControlActivated">@color/main</item><!--radiobutton等控件、返回按钮选中颜色-->
+                <!--<item name="android:fontFamily">@font/app_font</item>-->
         </style>
 
 

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- log输出开关，下面的依次是：总开关、在Eclipse中显示开关，写道文件中的开关和分享开关 -->
+    <bool name="log_switcher">true</bool>
+    <bool name="log_show_switcher">true</bool>
+    <bool name="log_file_switcher">true</bool>
+    <bool name="log_share_switcher">true</bool>
+
+    <!-- 软件分享时，微信和QQ申请的账号 -->
+    <string name="share_channel_qq_app_id">1106267644</string>
+    <string name="share_channel_qq_app_key">FqSaKXRdJ7dd242r</string>
+    <string name="share_channel_wechat_id">wx6bca0da7cd4a4775</string>
+    <string name="share_channel_wechat_secret">192a4fd02193a637e2170abfadd0d6b1</string>
+
+    <!-- 软件的版本号，用来处理更新 -->
+    <!-- <string name="software_version">16022910</string> -->
+    <string name="product_version">1801310000</string>
+
+    <!-- 友盟账号、渠道 -->
+    <string name="umeng_app_key">5a03ac5d734be471dc0001db</string>
+    <string name="umeng_app_channel">vivo</string>
+
+    <!-- 环信相关配置 -->
+    <string name="ease_appkey">zhuawa#zuji</string> <!-- 环信APP key，从环信后台获取 -->
+    <string name="ease_customer_account">wangwei</string> <!-- 客服关联的用户信息，从环信后台获取 -->
+
+
+    <!-- app_key -->
+    <string name="app_key">598SPR55G9AHRSDKGL29</string>
+    <!--host-->
+    <string name="app_host">http://www.doubiapp.com</string>
+
+    <!-- 零花 a0a1e323bd9ea0a1c0b1 -->
+    <!-- 白菜 SJ8ZHP4K1I8IBV7ZFU6W -->
+    <!-- QQ 9RPJ0G08F3CH08RE6ZZK -->
+    <!-- test B2156EML8AHRSDH676G6 -->
+<!-- fp 6OP4B0G469LNMA50TIJ6 -->
+    <!--商城 598SPR55G9AHRSDKGL29-->
+   
+    <!-- 入口 -->
+    <string name="entry_key">598SPR55G9AHRSDKGL29</string>
+    <string name="entry_host">http://www.doubiapp.com</string> <!-- 非必须，默认值是http://www.lovephone.com.cn -->
+
+</resources>

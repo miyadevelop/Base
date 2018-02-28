@@ -58,9 +58,9 @@
             android:configChanges="orientation|keyboardHidden|screenSize"/>
 
 
-        <!--<meta-data-->
-            <!--android:name="com.lf.view.tools.GlideConfiguration"-->
-            <!--android:value="GlideModule"/>-->
+        <meta-data
+            android:name="com.lf.view.tools.GlideConfiguration"
+            android:value="GlideModule"/>
 
     </application>
 

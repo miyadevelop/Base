@@ -8,7 +8,6 @@ import com.lf.app.App;
 import com.lf.controler.tools.download.DownloadCheckTask;
 import com.lf.controler.tools.download.helper.LoadUtils;
 import com.lf.controler.tools.download.helper.NetLoader;
-import com.my.m.R;
 
 import org.json.JSONObject;
 
@@ -94,10 +93,10 @@ public class UserInfoLoader extends NetLoader {
     public DownloadCheckTask initDownloadTask() {
         DownloadCheckTask task = new DownloadCheckTask();
         task.mIsSimple = true;
-        task.mUrl = Consts.HOST + "/mall/userGet.json";
+        task.mUrl = Consts.getHost(getContext()) + "/mall/userGet.json";
         task.addParams("appKey", App.string("app_key"));
         LoadUtils.addUniversalParam(getContext(), task);
-        task.addParams("appKey", getContext().getString(R.string.app_key));
+        task.addParams("appKey", Consts.getAppKey(getContext()));
         return task;
     }
 

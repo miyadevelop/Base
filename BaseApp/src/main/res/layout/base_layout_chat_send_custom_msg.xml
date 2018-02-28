@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/view_module_2_click"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop" />
+
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/module_1_text_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toLeftOf="@+id/chat_button_send_custom_msg"
+            android:layout_toRightOf="@+id/icon"
+            android:ellipsize="end"
+            android:lines="1" />
+
+        <TextView
+            android:id="@+id/msg"
+            style="@style/module_1_text_2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toLeftOf="@+id/chat_button_send_custom_msg"
+            android:layout_toRightOf="@+id/icon"
+            android:ellipsize="end"
+            android:lines="2" />
+
+
+        <Button
+            android:id="@+id/chat_button_send_custom_msg"
+            style="@style/button_1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/chat_send_msg" />
+
+    </RelativeLayout>
+</LinearLayout>
