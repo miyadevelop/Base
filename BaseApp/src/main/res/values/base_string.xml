@@ -77,4 +77,18 @@
     <string name="me_feedback">问题反馈</string>
     <string name="me_update">检测更新</string>
     <string name="me_unlogin">点击登录</string>
+
+
+    <!--评论列表界面-->
+    <string name="comment_title">评论</string>
+    <string name="comment_no_text">TA就打了个分，啥都没评 ╮(￣▽￣)╭</string>
+
+    <!--添加评论界面-->
+    <string name="comment_add_title">毒家点评</string>
+    <string name="comment_add_hint">说点啥...</string>
+    <string name="comment_add_score">点击评分</string>
+    <string name="comment_add_score_1">点击评分(%.1f分)</string>
+    <string name="comment_add_no_score">打个分呗</string>
+    <string name="comment_add_no_text">认真点嘛，评论不能少于10个字哦！</string>
+    <string name="comment_add_success">评论成功！</string>
 </resources>

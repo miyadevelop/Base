@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/comment_add_layout_bottom"
+        android:background="?attr/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_horizontal_margin">
+
+                <TextView
+                    android:id="@+id/comment_add_text_score"
+                    style="@style/module_1_text_3_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/comment_add_score" />
+
+                <!--打分-->
+                <RatingBar
+                    android:id="@+id/comment_add_rating_score"
+                    style="?android:attr/ratingBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:numStars="5"
+                    android:stepSize="0.5" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/windowBackground"></View>
+
+            <!--评论内容-->
+            <EditText
+                android:id="@+id/comment_add_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|left"
+                android:hint="@string/comment_add_hint"
+                android:maxLength="100"
+                android:background="@null"
+                android:minHeight="100dp"
+                android:padding="@dimen/activity_horizontal_margin" />
+
+
+            <com.tisson.test.DragGrid
+                android:id="@+id/comment_add_grid_images"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:gravity="center"
+                android:horizontalSpacing="6dp"
+                android:numColumns="3"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="10dp"
+                android:verticalSpacing="6dp"></com.tisson.test.DragGrid>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_above="@+id/comment_add_layout_bottom"
+        android:background="?android:windowBackground"></View>
+
+    <LinearLayout
+        android:id="@+id/comment_add_layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <ImageButton
+            android:tint="@color/image_tint"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/view_module_1_click_no_bg"
+            android:onClick="goToChooseImage"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_insert_photo_black_24dp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="finish">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/comment_add2_layout_edit"></ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="?android:attr/windowBackground"
+        android:layout_above="@+id/comment_add2_layout_edit"></View>
+
+    <LinearLayout
+        android:id="@+id/comment_add2_layout_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?attr/colorPrimary"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+
+        <!--评论内容-->
+        <EditText
+            android:id="@+id/comment_add_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:maxLines="1"
+            android:gravity="center_vertical"
+            android:hint="@string/comment_add_hint"
+            android:maxLength="100"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" />
+
+        <!--发送按钮-->
+        <ImageButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_weight="0"
+            android:background="@drawable/view_module_1_click_no_bg"
+            android:onClick="addComment"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_send_black_24dp"
+            android:tint="?attr/colorControlHighlight" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

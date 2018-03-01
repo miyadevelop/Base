@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/view_module_1_click">
+
+    <RelativeLayout
+        android:id="@+id/commtent_layout_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <!--头像-->
+        <ImageView
+            android:id="@+id/user_icon"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerCrop" />
+
+
+        <TextView
+            android:id="@+id/user_name"
+            style="@style/module_1_text_3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@id/user_icon"
+            android:includeFontPadding="true" />
+
+
+        <TextView
+            android:id="@+id/create_time"
+            style="@style/module_1_text_3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="18dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/text"
+        style="@style/module_1_text_1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/commtent_layout_user"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="12dp" />
+
+    <TableLayout
+        android:id="@+id/comment_layout_images"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="18dp"
+        android:paddingTop="12dp"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:onClick="showImage"
+                android:id="@+id/image_0"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:onClick="showImage"
+                android:id="@+id/image_1"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:maxHeight="100dp"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:onClick="showImage"
+                android:id="@+id/image_2"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:maxHeight="100dp"
+                android:scaleType="centerCrop" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="6dp"
+            android:paddingTop="6dp">
+
+            <ImageView
+                android:onClick="showImage"
+                android:id="@+id/image_3"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:maxHeight="100dp"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:onClick="showImage"
+                android:id="@+id/image_4"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:maxHeight="100dp"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:onClick="showImage"
+                android:id="@+id/image_5"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:maxHeight="100dp"
+                android:scaleType="centerCrop" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:onClick="showImage"
+                android:id="@+id/image_6"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:maxHeight="100dp"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:onClick="showImage"
+                android:id="@+id/image_7"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:maxHeight="100dp"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:onClick="showImage"
+                android:id="@+id/image_8"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop" />
+        </TableRow>
+
+    </TableLayout>
+
+
+    <RatingBar
+        android:id="@+id/comment_score"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@+id/comment_layout_images"
+        android:paddingTop="12dp"
+        android:numStars="5"
+        android:stepSize="0.1" />
+
+</RelativeLayout>
